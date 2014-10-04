@@ -1,0 +1,31 @@
+;; Object mockito1/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "mockito1/"
+  :tables (list 
+   (semanticdb-table "Test3.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("java.util.LinkedList" include nil nil [3 31])
+            ("java.util.List" include nil nil [32 54])
+            ("junit.framework.TestCase" include nil nil [57 89])
+            ("org.junit.*" include nil nil [91 110])
+            ("Test3" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("test1" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [183 502]))                  
+                :type "class")
+                nil [153 513]))          
+    :file "Test3.java"
+    :pointmax 514
+    :fsize 544
+    :lastmodtime '(21512 13166 0 0)
+    :unmatched-syntax '((MULT 148 . 149) (DOT 147 . 148) (IDENTIFIER 140 . 147) (DOT 139 . 140) (IDENTIFIER 132 . 139) (DOT 131 . 132) (IMPORT 114 . 120) (STATIC 121 . 127) (IDENTIFIER 128 . 131))
+    )
+   )
+  :file "!drive_e!Java8Workspace!mockito1!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

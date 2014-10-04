@@ -1,0 +1,15 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("bookmark1"
+ (filename . "e:/Books/Emacs/eintr.info")
+ (front-context-string . "\n\nThe value prod")
+ (rear-context-string . "cat \"abc\" \"def\")")
+ (position . 66938))
+("bookmark"
+ (filename . "e:/Books/Emacs/eintr.info")
+ (front-context-string . "\n     (concat \"a")
+ (rear-context-string . " the following:\n")
+ (position . 66912))
+)

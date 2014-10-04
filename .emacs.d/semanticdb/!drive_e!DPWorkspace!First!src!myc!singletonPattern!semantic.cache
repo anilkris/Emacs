@@ -1,0 +1,33 @@
+;; Object singletonPattern/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "singletonPattern/"
+  :tables (list 
+   (semanticdb-table "SingletonDemo.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("myc.singletonPattern" package nil nil [1 30])
+            ("SingletonDemo" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [87 101]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [63 176]))                  
+                :type "class")
+                nil [32 182]))          
+    :file "SingletonDemo.java"
+    :pointmax 183
+    :fsize 194
+    :lastmodtime '(21528 8989 0 0)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_e!DPWorkspace!First!src!myc!singletonPattern!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

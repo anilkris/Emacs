@@ -1,0 +1,427 @@
+;; Object util/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "util/"
+  :tables (list 
+   (semanticdb-table "Usages.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("jde.util" package nil nil [839 856])
+            ("java.io.IOException" include nil nil [858 885])
+            ("java.io.PrintStream" include nil nil [886 913])
+            ("java.io.PrintWriter" include nil nil [914 941])
+            ("java.io.StringWriter" include nil nil [942 970])
+            ("java.util.Collection" include nil nil [971 999])
+            ("java.util.HashMap" include nil nil [1000 1025])
+            ("java.util.Iterator" include nil nil [1026 1052])
+            ("java.util.List" include nil nil [1053 1075])
+            ("java.util.Map" include nil nil [1076 1097])
+            ("java.util.Set" include nil nil [1098 1119])
+            ("jde.util.usages.ASMSignature" include nil nil [1121 1157])
+            ("org.objectweb.asm.Type" include nil nil [1158 1188])
+            ("Usages" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("DEBUG" variable
+                       (:typemodifiers ("public" "static")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [1330 1366])
+                    ("_usages" variable
+                       (:typemodifiers ("public" "static")
+                        :type "Map")
+                        (reparse-symbol class_member_declaration) [1372 1414])
+                    ("_allClassesListNeedsRefreshing" variable
+                       (:typemodifiers ("public" "static")
+                        :type "Map")
+                        (reparse-symbol class_member_declaration) [1419 1484])
+                    ("IUsages" type
+                       (:typemodifiers ("public")
+                        :members 
+                          ( ("findUsages" function
+                               (:typemodifiers ("public")
+                                :arguments 
+                                  ( ("className" variable (:type "String") (reparse-symbol formal_parameters) [2213 2229])
+                                    ("m" variable (:type "Signature") (reparse-symbol formal_parameters) [2231 2242])
+                                    ("strict" variable (:type "boolean") (reparse-symbol formal_parameters) [2244 2258]))                                  
+                                :type "List")
+                                (reparse-symbol interface_member_declaration) [2188 2260])
+                            ("setProjectValues" function
+                               (:typemodifiers ("public")
+                                :arguments 
+                                  ( ("projectName" variable (:type "String") (reparse-symbol formal_parameters) [2300 2318])
+                                    ("projectclassPath" variable (:type "String") (reparse-symbol formal_parameters) [2320 2343]))                                  
+                                :type "void")
+                                (reparse-symbol interface_member_declaration) [2270 2345])
+                            ("getProjectClasspath" function
+                               (:typemodifiers ("public")
+                                :type "String")
+                                (reparse-symbol interface_member_declaration) [2355 2392])
+                            ("findSubs" function
+                               (:typemodifiers ("public")
+                                :arguments 
+                                  ( ("className" variable (:type "String") (reparse-symbol formal_parameters) [2424 2440])
+                                    ("getSubs" variable (:type "boolean") (reparse-symbol formal_parameters) [2442 2457])
+                                    ("getImpls" variable (:type "boolean") (reparse-symbol formal_parameters) [2459 2475]))                                  
+                                :type "List")
+                                (reparse-symbol interface_member_declaration) [2402 2477])
+                            ("findSubs" function
+                               (:typemodifiers ("public")
+                                :arguments 
+                                  ( ("className" variable (:type "String") (reparse-symbol formal_parameters) [2510 2526])
+                                    ("m" variable (:type "Signature") (reparse-symbol formal_parameters) [2528 2539]))                                  
+                                :type "List")
+                                (reparse-symbol interface_member_declaration) [2487 2541])
+                            ("findSupers" function
+                               (:typemodifiers ("public")
+                                :arguments 
+                                  ( ("className" variable (:type "String") (reparse-symbol formal_parameters) [2576 2592])
+                                    ("includeInterfaces" variable (:type "boolean") (reparse-symbol formal_parameters) [2594 2619]))                                  
+                                :type "List")
+                                (reparse-symbol interface_member_declaration) [2551 2621])
+                            ("getQualifiedNames" function
+                               (:typemodifiers ("public")
+                                :arguments 
+                                  ( ("className" variable (:type "String") (reparse-symbol formal_parameters) [2662 2678]))                                  
+                                :type "List")
+                                (reparse-symbol interface_member_declaration) [2631 2680])
+                            ("classExists" function
+                               (:typemodifiers ("public")
+                                :arguments 
+                                  ( ("className" variable (:type "String") (reparse-symbol formal_parameters) [2718 2734]))                                  
+                                :type "boolean")
+                                (reparse-symbol interface_member_declaration) [2690 2736])
+                            ("getAllClasses" function
+                               (:typemodifiers ("public")
+                                :type "Set")
+                                (reparse-symbol interface_member_declaration) [2746 2773])
+                            ("refresh" function
+                               (:typemodifiers ("public")
+                                :type "void")
+                                (reparse-symbol interface_member_declaration) [2783 2806])
+                            ("shutdown" function
+                               (:typemodifiers ("public")
+                                :type "void")
+                                (reparse-symbol interface_member_declaration) [2824 2847]))                          
+                        :type "interface")
+                        (reparse-symbol class_member_declaration) [2152 2862])
+                    ("Signature" type
+                       (:typemodifiers ("public" "static")
+                        :members 
+                          ( ("matches" function
+                               (:typemodifiers ("public")
+                                :arguments 
+                                  ( ("methodName" variable (:type "String") (reparse-symbol formal_parameters) [3142 3159])
+                                    ("retType" variable (:type "String") (reparse-symbol formal_parameters) [3161 3175])
+                                    ("argTypes" variable
+                                       (:dereference 1
+                                        :type "String")
+                                        (reparse-symbol formal_parameters) [3177 3194])
+                                    ("isField" variable (:type "boolean") (reparse-symbol formal_parameters) [3196 3211]))                                  
+                                :type "boolean")
+                                (reparse-symbol interface_member_declaration) [3118 3213])
+                            ("isConstructor" function
+                               (:typemodifiers ("public")
+                                :type "boolean")
+                                (reparse-symbol interface_member_declaration) [3223 3254]))                          
+                        :type "interface")
+                        (reparse-symbol class_member_declaration) [3073 3261])
+                    ("Location" type
+                       (:typemodifiers ("public" "static")
+                        :members 
+                          ( ("Location" function
+                               (:constructor-flag t
+                                :typemodifiers ("public")
+                                :arguments 
+                                  ( ("className" variable (:type "String") (reparse-symbol formal_parameters) [3325 3341])
+                                    ("methodName" variable (:type "String") (reparse-symbol formal_parameters) [3343 3360])
+                                    ("signature" variable (:type "String") (reparse-symbol formal_parameters) [3362 3378])
+                                    ("lineNumber" variable (:type "int") (reparse-symbol formal_parameters) [3380 3394])
+                                    ("write" variable (:type "boolean") (reparse-symbol formal_parameters) [3396 3409]))                                  )
+                                (reparse-symbol class_member_declaration) [3308 3636])
+                            ("toString" function
+                               (:typemodifiers ("public")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [3646 4562])
+                            ("lineNumber" variable
+                               (:typemodifiers ("public")
+                                :type "int")
+                                (reparse-symbol class_member_declaration) [4572 4594])
+                            ("occuranceCount" variable
+                               (:typemodifiers ("public")
+                                :type "int")
+                                (reparse-symbol class_member_declaration) [4603 4629])
+                            ("className" variable
+                               (:typemodifiers ("public")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [4638 4662])
+                            ("methodName" variable
+                               (:typemodifiers ("public")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [4671 4696])
+                            ("signature" variable
+                               (:typemodifiers ("public")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [4705 4729])
+                            ("write" variable
+                               (:typemodifiers ("public")
+                                :type "boolean")
+                                (reparse-symbol class_member_declaration) [4738 4759]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [3268 4766])
+                    ("findUsages" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("className" variable (:type "String") (reparse-symbol formal_parameters) [4804 4820])
+                            ("m" variable
+                               (:typemodifiers ("final")
+                                :type "Signature")
+                                (reparse-symbol formal_parameters) [4822 4839])
+                            ("strict" variable (:type "boolean") (reparse-symbol formal_parameters) [4841 4855])
+                            ("out" variable (:type "PrintStream") (reparse-symbol formal_parameters) [4857 4872]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [4773 5402])
+                    ("findSubs" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("className" variable (:type "String") (reparse-symbol formal_parameters) [5438 5454])
+                            ("m" variable
+                               (:typemodifiers ("final")
+                                :type "Signature")
+                                (reparse-symbol formal_parameters) [5456 5473])
+                            ("out" variable (:type "PrintStream") (reparse-symbol formal_parameters) [5475 5490]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [5409 5879])
+                    ("findSubs" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("className" variable (:type "String") (reparse-symbol formal_parameters) [5914 5930])
+                            ("getSubs" variable (:type "boolean") (reparse-symbol formal_parameters) [5932 5947])
+                            ("getImpls" variable (:type "boolean") (reparse-symbol formal_parameters) [5949 5965])
+                            ("out" variable (:type "PrintStream") (reparse-symbol formal_parameters) [5967 5982]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [5885 6374])
+                    ("findSupers" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("className" variable (:type "String") (reparse-symbol formal_parameters) [6411 6427])
+                            ("out" variable (:type "PrintStream") (reparse-symbol formal_parameters) [6429 6444]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [6380 6824])
+                    ("getAllClasses" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("out" variable (:type "PrintStream") (reparse-symbol formal_parameters) [6864 6879]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [6830 8687])
+                    ("print" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("out" variable (:type "PrintStream") (reparse-symbol formal_parameters) [8719 8734])
+                            ("o" variable (:type "Object") (reparse-symbol formal_parameters) [8736 8744]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [8693 8789])
+                    ("print" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("out" variable (:type "PrintStream") (reparse-symbol formal_parameters) [8821 8836])
+                            ("str" variable (:type "String") (reparse-symbol formal_parameters) [8838 8848]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [8795 8898])
+                    ("print" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("out" variable (:type "PrintStream") (reparse-symbol formal_parameters) [8930 8945])
+                            ("list" variable (:type "Collection") (reparse-symbol formal_parameters) [8947 8962]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [8904 9413])
+                    ("Class" type
+                       (:typemodifiers ("public" "static")
+                        :members 
+                          ( ("className" variable (:type "String") (reparse-symbol class_member_declaration) [9456 9473])
+                            ("Class" function
+                               (:constructor-flag t
+                                :typemodifiers ("public")
+                                :arguments 
+                                  ( ("className" variable (:type "String") (reparse-symbol formal_parameters) [9496 9512]))                                  )
+                                (reparse-symbol class_member_declaration) [9482 9565])
+                            ("toString" function
+                               (:typemodifiers ("public")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [9575 9657]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [9420 9663])
+                    ("AbstractClass" type
+                       (:typemodifiers ("public" "static")
+                        :superclasses "Class"
+                        :members 
+                          ( ("AbstractClass" function
+                               (:constructor-flag t
+                                :typemodifiers ("public")
+                                :arguments 
+                                  ( ("classname" variable (:type "String") (reparse-symbol formal_parameters) [9753 9769]))                                  )
+                                (reparse-symbol class_member_declaration) [9731 9791])
+                            ("toString" function
+                               (:typemodifiers ("public")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [9800 9894]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [9673 9900])
+                    ("Interface" type
+                       (:typemodifiers ("public" "static")
+                        :superclasses "Class"
+                        :members 
+                          ( ("Interface" function
+                               (:constructor-flag t
+                                :typemodifiers ("public")
+                                :arguments 
+                                  ( ("classname" variable (:type "String") (reparse-symbol formal_parameters) [9982 9998]))                                  )
+                                (reparse-symbol class_member_declaration) [9964 10020])
+                            ("toString" function
+                               (:typemodifiers ("public")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [10029 10124]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [9910 10130])
+                    ("findUsages" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("className" variable (:type "String") (reparse-symbol formal_parameters) [10172 10188])
+                            ("methodName" variable
+                               (:typemodifiers ("final")
+                                :type "String")
+                                (reparse-symbol formal_parameters) [10190 10213])
+                            ("numParams" variable
+                               (:typemodifiers ("final")
+                                :type "int")
+                                (reparse-symbol formal_parameters) [10215 10234])
+                            ("isField" variable (:type "boolean") (reparse-symbol formal_parameters) [10236 10251])
+                            ("strict" variable (:type "boolean") (reparse-symbol formal_parameters) [10253 10267])
+                            ("out" variable (:type "PrintStream") (reparse-symbol formal_parameters) [10269 10284]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [10141 10414])
+                    ("findUsages" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("className" variable (:type "String") (reparse-symbol formal_parameters) [10451 10467])
+                            ("methodName" variable
+                               (:typemodifiers ("final")
+                                :type "String")
+                                (reparse-symbol formal_parameters) [10469 10492])
+                            ("uArgs" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [10494 10509])
+                            ("isField" variable (:type "boolean") (reparse-symbol formal_parameters) [10511 10526])
+                            ("strict" variable (:type "boolean") (reparse-symbol formal_parameters) [10528 10542])
+                            ("out" variable (:type "PrintStream") (reparse-symbol formal_parameters) [10544 10559]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [10420 10660])
+                    ("findSubs" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("className" variable (:type "String") (reparse-symbol formal_parameters) [10695 10711])
+                            ("methodName" variable
+                               (:typemodifiers ("final")
+                                :type "String")
+                                (reparse-symbol formal_parameters) [10713 10736])
+                            ("numParams" variable
+                               (:typemodifiers ("final")
+                                :type "int")
+                                (reparse-symbol formal_parameters) [10738 10757])
+                            ("out" variable (:type "PrintStream") (reparse-symbol formal_parameters) [10759 10774]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [10666 10892])
+                    ("findSubs" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("className" variable (:type "String") (reparse-symbol formal_parameters) [10927 10943])
+                            ("methodName" variable
+                               (:typemodifiers ("final")
+                                :type "String")
+                                (reparse-symbol formal_parameters) [10945 10968])
+                            ("uArgs" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [10970 10985])
+                            ("out" variable (:type "PrintStream") (reparse-symbol formal_parameters) [10987 11002]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [10898 11091])
+                    ("getQualifiedNames" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("className" variable (:type "String") (reparse-symbol formal_parameters) [11135 11151]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [11097 11785])
+                    ("classExists" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("className" variable (:type "String") (reparse-symbol formal_parameters) [11826 11842]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [11791 11911])
+                    ("setProjectValues" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("projectName" variable (:type "String") (reparse-symbol formal_parameters) [11963 11981])
+                            ("projectClasspath" variable (:type "String") (reparse-symbol formal_parameters) [11983 12006]))                          
+                        :type "IUsages")
+                        (reparse-symbol class_member_declaration) [11922 12434])
+                    ("classAdded" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("u" variable (:type "IUsages") (reparse-symbol formal_parameters) [12471 12480])
+                            ("className" variable (:type "String") (reparse-symbol formal_parameters) [12482 12498]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [12440 12536])
+                    ("classRemoved" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("u" variable (:type "IUsages") (reparse-symbol formal_parameters) [12579 12588])
+                            ("className" variable (:type "String") (reparse-symbol formal_parameters) [12590 12606]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [12546 12644])
+                    ("classListChanged" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("u" variable (:type "IUsages") (reparse-symbol formal_parameters) [12687 12696]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [12650 12767])
+                    ("getTypeString" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("t" variable (:type "Type") (reparse-symbol formal_parameters) [12818 12824]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [12782 13565])
+                    ("getCurrentIUsages" function
+                       (:typemodifiers ("public" "static")
+                        :type "IUsages")
+                        (reparse-symbol class_member_declaration) [13571 14076])
+                    ("message" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("e" variable (:type "Throwable") (reparse-symbol formal_parameters) [14110 14121]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [14082 14255])
+                    ("message" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("msg" variable (:type "String") (reparse-symbol formal_parameters) [14289 14299]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [14261 14385])
+                    ("string" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("msg" variable (:type "String") (reparse-symbol formal_parameters) [14418 14428]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [14391 14511]))                  
+                :type "class")
+                nil [1304 14514]))          
+    :file "Usages.java"
+    :pointmax 14515
+    :fsize 14508
+    :lastmodtime '(17026 62106 0 0)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_e!Java8Workspace!usages!src!jde!util!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

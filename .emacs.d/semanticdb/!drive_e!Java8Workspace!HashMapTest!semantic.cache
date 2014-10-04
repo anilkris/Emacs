@@ -1,0 +1,74 @@
+;; Object HashMapTest/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "HashMapTest/"
+  :tables (list 
+   (semanticdb-table "HashMapInfiniteLoopSimulator.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("java.util.Collections" include nil nil [3 32])
+            ("java.util.Map" include nil nil [33 54])
+            ("java.util.HashMap" include nil nil [55 80])
+            ("java.util.Hashtable" include nil nil [81 108])
+            ("java.util.concurrent.ConcurrentHashMap" include nil nil [110 156])
+            ("java.util.concurrent.ExecutorService" include nil nil [157 201])
+            ("java.util.concurrent.Executors" include nil nil [202 240])
+            ("HashMapInfiniteLoopSimulator" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("NB_THREADS" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [374 414])
+                    ("NB_TEST_ITERATIONS" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [422 471])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [920 933]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [896 3423]))                  
+                :type "class")
+                nil [322 3426]))          
+    :file "HashMapInfiniteLoopSimulator.java"
+    :pointmax 3427
+    :fsize 3512
+    :lastmodtime '(21504 29722 0 0)
+    :unmatched-syntax '((SEMICOLON 813 . 814) (EQ 807 . 808) (GT 790 . 791) (COMMA 781 . 782) (LT 774 . 775) (SEMICOLON 747 . 748) (EQ 741 . 742) (GT 724 . 725) (COMMA 715 . 716) (LT 708 . 709) (SEMICOLON 681 . 682) (EQ 675 . 676) (GT 658 . 659) (COMMA 649 . 650) (LT 642 . 643) (SEMICOLON 615 . 616) (EQ 609 . 610) (GT 590 . 591) (COMMA 581 . 582) (LT 574 . 575) (SEMICOLON 547 . 548) (EQ 541 . 542) (GT 520 . 521) (COMMA 511 . 512) (PRIVATE 486 . 493) (LT 504 . 505) (SEMICOLON 845 . 846) (EQ 839 . 840) (GT 822 . 823) (COMMA 813 . 814) (LT 806 . 807) (SEMICOLON 779 . 780) (EQ 773 . 774) (GT 756 . 757) (COMMA 747 . 748) (LT 740 . 741) (SEMICOLON 713 . 714) (EQ 707 . 708) (GT 690 . 691) (COMMA 681 . 682) (LT 674 . 675) (SEMICOLON 647 . 648) (EQ 641 . 642) (GT 622 . 623) (COMMA 613 . 614) (LT 606 . 607) (SEMICOLON 579 . 580) (EQ 573 . 574) (GT 552 . 553) (COMMA 543 . 544) (PRIVATE 518 . 525) (LT 536 . 537) (SEMICOLON 845 . 846) (EQ 839 . 840) (GT 822 . 823) (COMMA 813 . 814) (LT 806 . 807) (SEMICOLON 779 . 780) (EQ 773 . 774) (GT 756 . 757) (COMMA 747 . 748) (LT 740 . 741) (SEMICOLON 713 . 714) (EQ 707 . 708) (GT 690 . 691) (COMMA 681 . 682) (LT 674 . 675) (SEMICOLON 647 . 648) (EQ 641 . 642) (GT 622 . 623) (COMMA 613 . 614) (LT 606 . 607) (SEMICOLON 579 . 580) (EQ 573 . 574) (GT 552 . 553) (COMMA 543 . 544) (PRIVATE 518 . 525) (LT 536 . 537))
+    )
+   (semanticdb-table "WorkerThread.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("java.util.Map" include nil nil [2 23])
+            ("WorkerThread" type
+               (:typemodifiers ("public")
+                :interfaces ("Runnable")
+                :members 
+                  ( ("WorkerThread" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("" variable (:type "String") (reparse-symbol formal_parameters) [227 233])
+                            ("" variable (:type "assignedMap") (reparse-symbol formal_parameters) [244 255]))                          )
+                        (reparse-symbol class_member_declaration) [203 317])
+                    ("run" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [343 1052]))                  
+                :type "class")
+                nil [92 1055]))          
+    :file "WorkerThread.java"
+    :pointmax 1057
+    :fsize 1090
+    :lastmodtime '(21504 29703 0 0)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_e!Java8Workspace!HashMapTest!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

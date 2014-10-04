@@ -1,0 +1,18 @@
+;; Object C++Workspace/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "C++Workspace/"
+  :tables (list 
+   (semanticdb-table "temp.cpp"
+    :major-mode 'c++-mode
+    :tags nil
+    :file "temp.cpp"
+    :pointmax 8
+    :fsize 7
+    :lastmodtime '(21523 44546 0 0)
+    :unmatched-syntax '((WHILE 3 . 8) (symbol 3 . 4) (WHILE 2 . 7) (symbol 2 . 5) (WHILE 2 . 7) (symbol 2 . 5) (symbol 2 . 3) (symbol 2 . 5) (symbol 29 . 32) (semantic-list 20 . 27) (semantic-list 8 . 19) (WHILE 2 . 7) (symbol 29 . 30) (semantic-list 20 . 27) (semantic-list 8 . 19) (WHILE 2 . 7) (semantic-list 20 . 27) (semantic-list 8 . 19) (WHILE 2 . 7) (WHILE 2 . 7))
+    )
+   )
+  :file "!drive_e!C++Workspace!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

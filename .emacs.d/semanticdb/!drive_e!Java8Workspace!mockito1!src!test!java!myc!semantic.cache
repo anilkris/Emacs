@@ -1,0 +1,29 @@
+;; Object myc/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "myc/"
+  :tables (list 
+   (semanticdb-table "SampleTest.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("myc" package nil nil [1 13])
+            ("org.junit.*" include nil nil [49 68])
+            ("SampleTest" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("sample" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [107 191]))                  
+                :type "class")
+                nil [70 198]))          
+    :file "SampleTest.java"
+    :pointmax 199
+    :fsize 210
+    :lastmodtime '(21512 16968 0 0)
+    :unmatched-syntax '((MULT 46 . 47) (DOT 45 . 46) (IDENTIFIER 39 . 45) (DOT 38 . 39) (IDENTIFIER 33 . 38) (DOT 32 . 33) (IMPORT 15 . 21) (STATIC 22 . 28) (IDENTIFIER 29 . 32))
+    )
+   )
+  :file "!drive_e!Java8Workspace!mockito1!src!test!java!myc!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

@@ -1,0 +1,31 @@
+;; Object events/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "events/"
+  :tables (list 
+   (semanticdb-table "AgentLoggedOff.groovy"
+    :major-mode 'java-mode
+    :tags 
+        '( ("AgentLoggedOff" type
+               (:members 
+                  ( ("scn" variable (:type "Scanner") (reparse-symbol class_member_declaration) [160 172])
+                    ("AgentLoggedOff" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("client" variable (:type "SOAPClient") (reparse-symbol formal_parameters) [196 213])
+                            ("d" variable (:type "Data") (reparse-symbol formal_parameters) [215 221]))                          )
+                        (reparse-symbol class_member_declaration) [181 353])
+                    ("ConfirmData" function (:type "Data") (reparse-symbol class_member_declaration) [363 1942])
+                    ("SendAgentLoggedOffEvent" function (:type "Data") (reparse-symbol class_member_declaration) [1951 2928]))                  
+                :type "class")
+                nil [80 2935]))          
+    :file "AgentLoggedOff.groovy"
+    :pointmax 2935
+    :fsize 2007
+    :lastmodtime '(21517 40876 0 0)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_e!GroovyWorkspace!VNEvents1!src!main!java!myc!events!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

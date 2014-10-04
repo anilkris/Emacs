@@ -1,0 +1,338 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("e:/GroovyWorkspace/VNEvents2/src/main/java/" . "myc/")
+ ("e:/GroovyWorkspace/VNEvents2/src/main/" . "java/")
+ ("e:/GroovyWorkspace/VNEvents2/src/" . "main/")
+ ("e:/GroovyWorkspace/VNEvents2/" . "src/")
+ ("e:/Java8Workspace/usages/src/jde/" . "util/")
+ ("e:/Java8Workspace/usages/src/" . "jde/")
+ ("e:/Java8Workspace/usages/" . "src/")
+ ("e:/GroovyWorkspace/VNEvents1/src/main/java/myc/" . "events/")
+ ("e:/GroovyWorkspace/VNEvents1/src/main/java/" . "myc/")
+ ("e:/GroovyWorkspace/VNEvents1/src/main/" . "java/")
+ ("e:/GroovyWorkspace/VNEvents1/src/" . "main/")
+ ("e:/GroovyWorkspace/VNEvents1/" . "src/")
+ ("e:/GroovyWorkspace/" . "VNEvents2/")
+ ("e:/GradleWorkSpace/Hello/src/main/myc/" . "gradle1/")
+ ("e:/GradleWorkSpace/Hello/src/main/" . "myc/")
+ ("e:/GradleWorkSpace/Hello/src/java/myc/" . "gradle1/")
+ ("e:/GradleWorkSpace/Hello/src/java/" . "myc/")
+ ("e:/GradleWorkSpace/Hello/src/" . "main/")
+ ("e:/GradleWorkSpace/Hello/" . "src/")
+ ("e:/GradleWorkSpace/" . "Hello/")
+ ("e:/62Console-Luna/ECN7Console/" . "work/")
+ ("e:/62Console-Luna/" . "AsyncTest/")
+ ("e:/Java8Workspace/mockito1/src/" . "myc/")
+ ("e:/Java8Workspace/" . "usages/")
+ ("e:/Console Traces/1-5028628/" . "03-Sept-2014/")
+ ("e:/Console Traces/" . "1-5028628/")
+ ("e:/nodeWorkspace/" . "recipes/")
+ ("e:/HOME/.emacs.d/elpa/" . "rainbow-delimiters-1.3.4/")
+ ("e:/auto-complete-1.3.1/" . "etc/")
+ ("e:/HTML5Workspace/" . "first/")
+ ("e:/62ConsoleTest/js/AttendantConsole/" . "login/")
+ ("e:/62ConsoleTest/js/" . "AttendantConsole/")
+ ("e:/62ConsoleTest/" . "test/")
+ ("e:/62ConsoleTest/en/" . "AttendantConsole/")
+ ("e:/62ConsoleTest/test/" . "scripts/")
+ ("e:/i18n- ex/locales/" . "en/")
+ ("e:/i18n- ex/" . "locales/")
+ ("e:/xgui3/js/" . "lib/")
+ ("e:/xgui3/" . "js/")
+ ("e:/ConsoleTest/js/AttendantConsole/" . "login/")
+ ("e:/ConsoleTest/js/" . "AttendantConsole/")
+ ("e:/ConsoleTest/xgui3/js/" . "lib/")
+ ("e:/ConsoleTest/xgui3/" . "js/")
+ ("e:/ConsoleTest/en/" . "AttendantConsole/")
+ ("e:/ConsoleTest/" . "xgui3/")
+ ("e:/apache-tomcat-7.0.54/webapps/ConsoleTest/js/AttendantConsole/" . "login/")
+ ("e:/apache-tomcat-7.0.54/webapps/ConsoleTest/js/" . "AttendantConsole/")
+ ("e:/apache-tomcat-7.0.54/webapps/ConsoleTest/en/" . "AttendantConsole/")
+ ("e:/apache-tomcat-7.0.54/webapps/ConsoleTest/" . "js/")
+ ("e:/JSWorkspace/" . "JS Good Parts/")
+ ("e:/Books/" . "go/")
+ ("e:/apache-tomcat-7.0.54/webapps/JSTest/" . "mocha2/")
+ ("e:/apache-tomcat-7.0.54/webapps/" . "JSTest/")
+ ("e:/apache-tomcat-7.0.54/" . "webapps/")
+ ("e:/ClojureWorkspace/clojure-noob/" . "src/")
+ ("e:/ClojureWorkspace/" . "clojure-noob/")
+ ("e:/ClojureWorkspace/clojure-noob/src/" . "clojure_noob/")
+ ("e:/HOME/" . ".emacs.d/")
+ ("e:/" . "HOME/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "e:/HOME/"
+ "e:/GroovyWorkspace/VNEvents2/src/main/java/myc/"
+ "e:/GroovyWorkspace/VNEvents2/src/groovy/"
+ "e:/GroovyWorkspace/test/"
+ "e:/GroovyWorkspace/VNEvents1/src/main/java/myc/events/"
+ "e:/Java8Workspace/"
+ "e:/Java8Workspace/usages/src/jde/util/"
+ "e:/HOME/.emacs.d/"
+ "e:/Java8Workspace/ScanInput/"
+ "e:/GroovyWorkspace/VNEvents1/"
+ "e:/GradleWorkSpace/Hello/src/main/myc/gradle1/"
+ "e:/GradleWorkSpace/Hello/"
+ "e:/GradleWorkSpace/Hello/src/java/myc/gradle1/"
+ "e:/62Console-Luna/AsyncTest/"
+ "e:/62Console-Luna/ECN7Console/work/"
+ "e:/Java8Workspace/mockito1/"
+ "e:/Java8Workspace/mockito1/src/myc/"
+ "e:/Console Traces/1-5028628/03-Sept-2014/"
+ "e:/PythonWorkspace/gabrielelanaro-emacs-for-python-6038402/"
+ "e:/PythonWorkspace/"
+ "e:/PythonWS/"
+ "e:/GoWorkspace/"
+ "e:/juliaWorkspace/"
+ "e:/Books/"
+ "e:/ConsoleTraces/"
+ "e:/HOME/.emacs.d/elpa/expand-region-20140610.1519/"
+ "e:/Books/go/"
+ "e:/Books/Java/"
+ "e:/"
+ "e:/busterWS/Start/test/"
+ "e:/busterWS/"
+ "e:/busterWS/test/"
+ "e:/nodeWorkspace/recipes/"
+ "e:/JSWorkspace/JS Good Parts/"
+ "e:/HOME/.emacs.d/elpa/rainbow-delimiters-1.3.4/"
+ "e:/nodeWorkspace/"
+ "e:/nodeWorkspace/SCMP3/"
+ "e:/auto-complete-1.3.1/etc/"
+ "e:/JSWorkspace/"
+ "e:/LispWs/"
+ "e:/HTML5Workspace/first/"
+ "e:/62ConsoleTest/test/"
+ "e:/62ConsoleTest/test/scripts/"
+ "e:/62ConsoleTest/en/AttendantConsole/"
+ "e:/62ConsoleTest/js/AttendantConsole/login/"
+ "e:/apache-tomcat-7.0.54/webapps/i18n-ex/"
+ "e:/i18n- ex/"
+ "e:/i18n- ex/locales/en/"
+ "e:/xgui3/js/"
+ "e:/xgui3/js/lib/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+ "AgentLoggedOn.groovy"
+ "AgentReady.groovy"
+ "Loop.groovy"
+ "VNEvents.groovy"
+ "Established.groovy"
+ "ConnectionCleared.groovy"
+ "TransferedEvent.groovy"
+ "Print.groovy"
+ "Offered.groovy"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("e:/HOME/" (21522 39862 0 0) "_viminfo" "test.lisp~" "test.lisp" "test.fasl" "quicklisp.lisp" "quicklisp/" "pip/" "moz.el" "maxframe.el" "jscommit/" "emacs-w3m-1.4.4.tar.gz" "emacs-w3m-1.4.4/" "Emacs-Groovy-Mode-master/" "cygwin/" "contrib/" "color-theme/" ".zile" ".w3m/" ".VirtualBox/" ".slime-history.eld" ".slime/" ".sbclrc" ".saves/" ".recentf" ".minttyrc~" ".minttyrc" ".julia_history" ".julia/" ".ipython/" ".ido.last" ".gradle_tabcompletion/" ".enki/" ".emacs.d/" ".emacs" ".codeintel/" ".bash_profile" ".bash_history" ".bashrc~" ".bashrc" ".#.ido.last" "../" "./")
+
+ ("e:/GroovyWorkspace/VNEvents2/" (21520 11743 0 0) "target/" "src/" "Readme.txt" "pom.xml" "gradle.properties" "dependency-reduced-pom.xml" "build.gradle" "../" "./")
+
+ ("e:/GroovyWorkspace/VNEvents2/src/main/java/myc/" (21520 10773 0 0) "VNEvents.groovy" "TransferedEvent.groovy" "Queued.groovy" "Print.groovy" "Offered.groovy" "MessageWaitingEvent.groovy" "Loop.groovy" "Established.groovy" "DivertedEvent.groovy" "Delivered.groovy" "Data.groovy" "ConnectionCleared.groovy" "ApplicationSessionTerminatedOp.groovy" "AgentReady.groovy" "AgentNotReady.groovy" "AgentLoggedOn.groovy" "AgentLoggedOff.groovy" "../" "./")
+
+ ("e:/GroovyWorkspace/VNEvents2/src/main/java/" (21520 10773 0 0) "myc/" "../" "./")
+
+ ("e:/GroovyWorkspace/VNEvents2/src/main/" (21518 61685 0 0) "java/" "../" "./")
+
+ ("e:/GroovyWorkspace/VNEvents1/src/main/java/myc/events/" (21520 10876 0 0) "VNEvents.groovy" "TransferedEvent.groovy" "Queued.groovy" "Print.groovy" "Offered.groovy" "MessageWaitingEvent.groovy" "Established.groovy" "DivertedEvent.groovy" "Delivered.groovy" "Data.groovy" "ConnectionCleared.groovy" "ApplicationSessionTerminatedOp.groovy" "AgentReady.groovy" "AgentNotReady.groovy" "AgentLoggedOn.groovy" "AgentLoggedOff.groovy" "../" "./")
+
+ ("e:/GroovyWorkspace/VNEvents2/src/groovy/" (21520 9719 0 0) "VNEvents.groovy" "TransferedEvent.groovy" "Queued.groovy" "Print.groovy" "Offered.groovy" "MessageWaitingEvent.groovy" "Loop.groovy" "Established.groovy" "DivertedEvent.groovy" "Delivered.groovy" "Data.groovy" "ConnectionCleared.groovy" "ApplicationSessionTerminatedOp.groovy" "AgentReady.groovy" "AgentNotReady.groovy" "AgentLoggedOn.groovy" "AgentLoggedOff.groovy" "../" "./")
+
+ ("e:/GroovyWorkspace/" (21520 5196 0 0) "VNEvents2/" "VNEvents1.7z" "VNEvents1 - bkp2/" "VNEvents1 - bkp/" "VNEvents1 - 9thSept/" "VNEvents1/" "VNEvents/" "Vehicles/" "UDPGroovy/" "Test.txt" "test/" "Student/" "socket.groovy" "soap-csa/" "soap-console2/" "soap-console/" "soap/" "SimpleGroovyServlet.groovy" "SimpleGroovyServlet.class" "SimpleGroovyServlet$_service_closure1.class" "Server.java" "server.groovy" "Serialize/" "search.groovy" "scxml/" "script.groovy" "script/" "Program/" "numbers.txt" "JettyStart2.groovy" "JettyStart.groovy" "JettyStart.class" "JettyStart$_run_closure2.class" "JettyStart$_run_closure1.class" "Jettyrun.groovy" "Jetty/" "http/" "Hello.java" "hello.groovy" "Hello.class" "Groovy1/" "groovy-http-server-master/" "groovy-http-master/" "groovy-all-2.1.6.jar" "gradle-groovy-jar-example-master/" "functions.groovy" "fizzbuzz.groovy" "fizzbuzz.class" "fizzbuzz$_run_closure1.class" "File/" "excel/" "ECN6CSA/" "ConsoleSim/" "CodeNarc/" "client.groovy" "CallGroovyUsingGroovyShell.java" "CallGroovyUsingGroovyShell.class" ".metadata/" "../" "./")
+
+ ("e:/GroovyWorkspace/test/" (21520 5695 0 0) "Second.groovy" "First.groovy" "../" "./")
+
+ ("e:/GroovyWorkspace/VNEvents2/src/" (21518 62372 0 0) "main/" "groovy/" "../" "./")
+
+ ("e:/Java8Workspace/" (21518 45583 0 0) "usages/" "ThreadSafety/" "Test3.java" "Test2.java" "Test2.class" "Test2/" "Test1/" "Test.java" "Test.class" "Swap.java" "Swap.class" "Sort.java" "Serialize/" "ScanInput/" "RosterTest.java" "PigLatin.java" "PigLatin.class" "Password.java" "Password.class" "mockito1/" "Java8InAction-master/" "HelloWorld.java" "HelloWorld.class" "HelloWorld$1.class" "hello/" "HashMapTest/" "EmployeeTest.java" "EmployeeTest.class" "Employee1.java" "Employee1.class" "Employee.java" "Employee.class" "ch4/" "ch3/" "ch2/" "ch1/" "args/" ".metadata/" "#Password.java#" "../" "./")
+
+ ("e:/Java8Workspace/usages/src/jde/util/" (21518 43981 0 0) "Usages.java" "usages/" "JdeUtilities.java" "../" "./")
+
+ ("e:/Java8Workspace/usages/src/jde/" (21518 43981 0 0) "util/" "../" "./")
+
+ ("e:/Java8Workspace/usages/src/" (21518 43981 0 0) "org/" "jde/" "bsh/" "../" "./")
+
+ ("e:/Java8Workspace/usages/" (21518 43981 0 0) "TODO" "tests/" "src/" "ReleaseNotes" "prj.el" "lisp/" "lib/" "build.xml" "../" "./")
+
+ ("e:/HOME/.emacs.d/" (21517 56755 0 0) "vendor/" "user.el" "themes/" "tar.sh" "starter-kit.el" "starter-kit-pkg.el" "starter-kit-misc.el" "starter-kit-defuns.el" "srecode-map.el" "setup-slime-js.el" "server/" "semanticdb/" "popup.elc" "popup.el" "places" "packages/" "modules/" "js2-mode.el" "jdee-2.4.1/" "init.el-backup" "init.el" "fuzzy.elc" "fuzzy.el" "eshell/" "emacs-for-python/" "elpa/" "cider-history" "backups/" "auto-save-list/" "auto-complete.elc" "auto-complete.el" "auto-complete-config.elc" "auto-complete-config.el" "ac-dict/" "ac-comphist.dat" "abbrev_defs" ".smex-items" ".mc-lists.el" ".git/" "#user.el#" "../" "./")
+
+ ("e:/GroovyWorkspace/VNEvents1/" (21517 44255 0 0) "target/" "src/" "Readme.txt" "pom.xml" "gradle.properties" "dependency-reduced-pom.xml" "build.gradle" "../" "./")
+
+ ("e:/cygwinhome/" (21518 27529 0 0) "emacs24-starter-kit/" "emacs-starter-kit/" "better-defaults/" ".emacs.d/" "../" "./")
+
+ ("e:/cygwinhome/better-defaults/" (21518 26593 0 0) "README.md" "better-defaults.el" ".git/" "../" "./")
+
+ ("e:/Java8Workspace/ScanInput/" (21517 38534 0 0) "ScanInput.java" "ScanInput.class" "#ScanInput.java#" "../" "./")
+
+ ("e:/GroovyWicket/" (21455 40388 0 0) "wicket-groovy-DSL-master/" "../" "./")
+
+ ("e:/GroovyWorkspace/VNEvents1/src/main/java/myc/" (21443 31426 0 0) "events/" "../" "./")
+
+ ("e:/GroovyWorkspace/VNEvents1/src/main/java/" (21443 31426 0 0) "myc/" "../" "./")
+
+ ("e:/GroovyWorkspace/VNEvents1/src/main/" (21443 31426 0 0) "java/" "../" "./")
+
+ ("e:/GroovyWorkspace/VNEvents1/src/" (21443 31503 0 0) "main/" "../" "./")
+
+ ("e:/GradleWorkSpace/Hello/src/main/myc/gradle1/" (21516 36163 0 0) "Hello.java" "../" "./")
+
+ ("e:/GradleWorkSpace/Hello/src/main/myc/" (21516 35964 0 0) "gradle1/" "../" "./")
+
+ ("e:/GradleWorkSpace/Hello/src/main/" (21516 37386 0 0) "myc/" "../" "./")
+
+ ("e:/GradleWorkSpace/Hello/src/" (21516 37390 0 0) "main/" "../" "./")
+
+ ("e:/GradleWorkSpace/Hello/" (21516 37122 0 0) "src/" "build.gradle" "build/" ".gradle/" "../" "./")
+
+ ("e:/GradleWorkSpace/Hello/build/" (21516 37124 0 0) "tmp/" "libs/" "dependency-cache/" "classes/" "../" "./")
+
+ ("e:/GradleWorkSpace/Hello/build/libs/" (21516 37728 0 0) "myc/" "META-INF/" "Hello.jar" "../" "./")
+
+ ("e:/GradleWorkSpace/Hello/build/libs/META-INF/" (21516 37728 0 0) "MANIFEST.MF" "../" "./")
+
+ ("e:/GradleWorkSpace/Hello/src/java/myc/gradle1/" (21516 36163 0 0) "Hello.java" "../" "./")
+
+ ("e:/GradleWorkSpace/Hello/src/java/myc/" (21516 35964 0 0) "gradle1/" "../" "./")
+
+ ("e:/GradleWorkSpace/Hello/src/java/" (21516 35935 0 0) "myc/" "../" "./")
+
+ ("e:/GradleWorkSpace/" (21516 35769 0 0) "quickstart/" "HelloWorld.java" "Hello/" "ex/" "consumerBanking/" "build.gradle" "basic-web/" "../" "./")
+
+ ("e:/62Console-Luna/AsyncTest/" (21516 10699 0 0) "src/" "bin/" ".settings/" ".project" ".classpath" "../" "./")
+
+ ("e:/HOME/.emacs.d/elpa/" (21516 33949 0 0) "yasnippet-20140810.1626/" "web-mode-20140816.48/" "web-beautify-20131118.226/" "w3m-20140803.1603/" "visual-regexp-steroids-20140825.245/" "visual-regexp-20140825.245/" "tern-auto-complete-20140528.1415/" "tern-20140814.750/" "starter-kit-ruby-2.0/" "starter-kit-lisp-2.0.3/" "starter-kit-bindings-2.0.2/" "starter-kit-2.0.3/" "smex-1.1.1/" "slime-20140804.1449/" "skewer-mode-20140702.647/" "simple-httpd-20140613.955/" "Save-visited-files-readme.txt" "s-20140714.707/" "s-1.7.0/" "requirejs-mode-20130215.1304/" "redo+-20131117.1151/" "rainbow-delimiters-20131015.1304/" "rainbow-delimiters-1.3.4/" "rainbow-delimiters/" "projectile-0.9.2/" "popup-0.5/" "pkg-info-20131101.408/" "paredit-22/" "nodejs-repl-20130520.842/" "multiple-cursors-20140804.1527/" "monokai-theme-20140814.556/" "mic-paren/" "malabar-mode-20140307.1420/" "magit-1.0.0/" "log4j-mode-20101016.822/" "js2-refactor-20140427.428/" "js2-mode-20140803.2031/" "jquery-doc-20131223.845/" "impatient-mode-readme.txt" "impatient-mode-20140203.753/" "ido-ubiquitous-0.7/" "idle-highlight-mode-1.1.2/" "htmlize-20130207.1202/" "highlight-indentation-0.5.0/" "groovy-mode-20131129.409/" "gradle-mode-20140603.1117/" "fringe-helper-20140620.1409/" "flycheck-20140815.1028/" "flycheck-20140813.1452/" "find-file-in-project-3.0/" "expand-region-20140610.1519/" "exec-path-from-shell-20140731.907/" "eproject-20140118.1608/" "epl-20131101.405/" "elisp-slime-nav-0.2/" "dash-20140811.523/" "dash-2.1.0/" "crappy-jsp-mode-readme.txt" "clojure-test-mode-20131227.805/" "clojure-mode-20131227.1044/" "cl-lib-0.5/" "cl-lib-0.3/" "cider-20140814.907/" "cider-20131221.1231/" "buster-snippets-20130714.540/" "buster-mode-20121219.522/" "brainfuck-mode-readme.txt" "auto-complete-20140803.2118/" "auto-complete-1.4/" "archives/" "ant-20131227.2307/" "ac-slime-20131005.326/" "ac-js2-20140809.2217/" "../" "./")
+
+ ("e:/HOME/.emacs.d/elpa/jquery-doc-20131223.845/" (21516 33988 0 0) "jquery-doc.elc" "jquery-doc.el" "jquery-doc-pkg.elc" "jquery-doc-pkg.el" "jquery-doc-data.elc" "jquery-doc-data.el" "jquery-doc-autoloads.el" "../" "./")
+
+ ("e:/HOME/.emacs.d/elpa/ant-20131227.2307/" (21516 17637 0 0) "ant.elc" "ant.el" "ant-pkg.elc" "ant-pkg.el" "ant-autoloads.el" "../" "./")
+
+ ("e:/62Console-Luna/" (21516 10698 0 0) "test/" "RemoteSystemsTempFiles/" "Mockito1/" "ECN7Console/" "Ecn7-0_WebCNS_V01/" "commons-scxml-0.9-src/" "AsyncTest/" ".recommenders/" ".metadata/" "../" "./")
+
+ ("e:/62Console-Luna/ECN7Console/work/" (21514 45386 0 0) "web/" "tmp/" "test/" "template_Xml/" "src/" "project.gui.xml" "labels/" "dist/" "ConsoleFSM.xml" "build_it.xml" "build.xml" "build/" "../" "./")
+
+ ("e:/62Console-Luna/ECN7Console/" (21514 39572 0 0) "WSDL/" "work/" "WebContent/" "services.properties" "orange.properties" "NewLogin.txt" "log4j.properties" "generic.properties" "console.properties" "build/" ".settings/" ".project" ".classpath" "../" "./")
+
+ ("e:/Java8Workspace/mockito1/" (21512 15510 0 0) "src/" "lib/" "classes/" "../" "./")
+
+ ("e:/Java8Workspace/mockito1/src/myc/" (21512 13996 0 0) "Test3.java" "../" "./")
+
+ ("e:/Java8Workspace/mockito1/src/" (21512 13996 0 0) "myc/" "../" "./")
+
+ ("e:/Console Traces/1-5028628/03-Sept-2014/" (21510 50689 0 0) "HGM_2014-08-27_194714.log.8.gz" "HGM_2014-08-27_194714.log.8" "CNSOrange54Webappli.log.gz" "access_log.24.gz" "#HGM_2014-08-27_194714.log.8#" "../" "./")
+
+ ("e:/Console Traces/1-5028628/" (21510 42319 0 0) "Zip_03-04-14/" "VN_Trace_AR5028628.zip" "VN/" "Trace-Log_03-04-14.zip" "HGM_2014-06-25_123101.log.2.zip" "HGM_2014-06-25_123101.log.2" "HGM_2014-06-11_073634.log.7z" "HGM_2014-06-11_073634.log.4" "FE1-logs_HGM_CNS.zip" "FE1-logs HGM_CNS/" "CNSOrange54Webappli.log.1.gz" "AR5028628-VN/" "access_log.6.gz" "03-Sept-2014/" "#HGM_2014-06-11_073634.log.4#" "../" "./")
+
+ ("e:/Console Traces/" (21501 37904 0 0) "responses.js" "OfferedOK.log" "LoginDetails.txt" "Incorrect Park/" "HGM_2014-06-11_073634.log.1.gz" "HGM_2014-06-11_073634.log.1/" "HGM_2014-05-16_221635.log.10.sav.gz" "HGM_2014-05-16_221635.log.10.sav" "HGM_2014-05-10_084033.log.sav.gz" "HGM_2014-05-10_084033.log.sav/" "Heap-20140826T125745.heapsnapshot" "Console old/" "CNSOrange54Webappli.log.1.sav.gz" "CNSOrange54Webappli.log.1.sav" "BasicTestNew/" "BasicTest/" "4729605/" "25480/" "1-5028628/" "1-4841270/" "+33352430001.txt" "+33352430001-2.txt" "#+33352430001-2.txt#" "../" "./")
+
+ ("e:/PythonWorkspace/gabrielelanaro-emacs-for-python-6038402/" (21506 57033 0 0) "snippets/" "scripts/" "README.org" "python-libs/" "extensions/" "epy-setup.el" "epy-python.el" "epy-nose.el" "epy-init.el" "epy-editing.el" "epy-completion.el" "epy-bindings.el" "doc/" "COPYING" "CONTRIBUTORS" "ChangeLog" ".README.org.swp" ".gitignore" "../" "./")
+
+ ("e:/PythonWorkspace/" (21475 16910 0 0) "test.py" "swampy-2.1.7/" "Soap_Server.py.bak" "Soap_Server.py" "Soap_Client.py.bak" "Soap_Client.py" "pysimplesoap-master/" "PySimpleSOAP-1.10/" "polygon.py" "../" "./")
+
+ ("e:/PythonWS/" (21506 38465 0 0) "../" "./")
+
+ ("e:/juliaWorkspace/" (21505 53974 0 0) "../" "./")
+
+ ("e:/GoWorkspace/" (21505 48556 0 0) "w3m.exe.stackdump" "test1.go" "test.go" "src/" "goex/" "goeg1/" "goeg/" "first.go" "ex1.go" "ch4.go" "ch3.go" "ch2.go" "ch1.go" "#ch2.go#" "../" "./")
+
+ ("e:/Books/" (21505 35963 0 0) "wsdl/" "whyfp90.pdf" "websockets.pdf" "Web Services/" "Universe Solar System, Stars, and Galaxies - 7th Edition.pdf" "Trachtenberg System.pdf" "Tomcat - A Minimalistic User's Guide.htm" "the.complete.idiots.guide.to.world.history.pdf" "the-great-java-app-server-debate.txt" "The-Fountainhead.pdf" "The Power of Habit - Charles Duhigg/" "The Magic of Reality_ How We Know What's - Richard Dawkins.epub" "The Apache Tomcat Connector - Webserver HowTo - Apache HTTP Server HowTo.htm" "Terry.Jones.History.Collection.3of3.The.Hidden.History.of.Rome.XviD.AC3.MVGroup.org.avi" "struts2_tutorial.pdf" "Struts/" "sinon.pdf" "sicp.pdf" "Secrets_of_Mental_Math___Michael_Shermer___Arthur_Benjamin.pdf" "Secrets of Mental Math (guidebook).pdf" "Scala/" "Richard_Dawkins--The_Greatest_Show_On_Earth.pdf" "Richard.Dawkins.-.The.God.Delusion.(2006).FIXED.pdf" "Richard Dawkins Complete e-book Collection/" "RESTful/" "Python/" "Programming Interviews Exposed, 3rd Edition.pdf" "Pragmatic Project Automation.pdf" "PracticalSocketJava.pdf" "Polya_HowToSolveIt.pdf" "PMP-Rita Mulcahy.pdf" "PlayFramework/" "OWASP/" "OutliersTheStoryOfSuccess.pdf" "Oreilly XMPP The Definitive Guide May 2009.pdf" "ods-java.pdf" "Node_JS/" "New folder/" "MS Project 2007 Traning VDU/" "MigratingFromStruts1ToStruts2.pdf" "Martin_-_Clean_Code_-_A_Handbook_of_Agile_Software_Craftsmanship.pdf" "log4j_tutorial.pdf" "log4j-users-guide.pdf" "log4j/" "LISP/" "Lex & Yacc/" "Lambda Calculus.pdf" "JUnit/" "JSP vs html with JS/" "JS/" "Jerry Coyne - Why Evolution Is True - AAI 2009.mov" "Jenkins/" "Java8/" "Java Web Frameworks - Part2.pdf" "Java Web Frameworks - Part1.pdf" "Java Build Tools/" "Java 7 Documentation/" "Java & Web/" "Java/" "HTTPD -Tomcat/" "HTML5  & CSS3/" "How an Economy Grows and Why It Crashes.pdf" "Groovy/" "Gradle/" "Google-go.pdf" "gobook.pdf" "go/" "FrontLine/" "Form-Data.pdf" "Fitnesse/" "Financial Crisis/" "English/" "Encyclopedia of World History, 6-Volume Set (Malestrom)/" "Ember/" "Emacs/" "Economics in One Lesson.pdf" "Cracking Code Intervies/" "Coyne Why Evolution Is True.pdf" "Coyne Why Evolution Is True/" "CORE Servlets & JSP/" "Clojure/" "ch2.go" "C & C++/" "Bryan Peterson - Understanding Exposure (Revised Edition).pdf" "bookaroo-2013-programme.pdf" "Biology/" "bbc_stargazing_live_star_guide.pdf" "Backbone/" "asterisk.pdf" "ApacheWicket/" "ant_tutorial.pdf" "Ant/" "A Short History of Nearly Everything.pdf" "A little history of the world.pdf" "../" "./")
+
+ ("e:/ConsoleTraces/" (21407 59628 0 0) "HGM_2014-06-11_073634.log.1.gz" "0684748429-UserLogin.log" "0630521199- UserLogin.txt" "../" "./")
+
+ ("e:/HOME/.emacs.d/elpa/expand-region-20140610.1519/" (21505 27043 0 0) "web-mode-expansions.elc" "web-mode-expansions.el" "the-org-mode-expansions.elc" "the-org-mode-expansions.el" "text-mode-expansions.elc" "text-mode-expansions.el" "sml-mode-expansions.elc" "sml-mode-expansions.el" "ruby-mode-expansions.elc" "ruby-mode-expansions.el" "python-mode-expansions.elc" "python-mode-expansions.el" "python-el-fgallina-expansions.elc" "python-el-fgallina-expansions.el" "python-el-expansions.elc" "python-el-expansions.el" "octave-expansions.elc" "octave-expansions.el" "nxml-mode-expansions.elc" "nxml-mode-expansions.el" "latex-mode-expansions.elc" "latex-mode-expansions.el" "jsp-expansions.elc" "jsp-expansions.el" "js2-mode-expansions.elc" "js2-mode-expansions.el" "js-mode-expansions.elc" "js-mode-expansions.el" "html-mode-expansions.elc" "html-mode-expansions.el" "feature-mode-expansions.elc" "feature-mode-expansions.el" "expand-region.elc" "expand-region.el" "expand-region-pkg.elc" "expand-region-pkg.el" "expand-region-custom.elc" "expand-region-custom.el" "expand-region-core.elc" "expand-region-core.el" "expand-region-autoloads.el" "erlang-mode-expansions.elc" "erlang-mode-expansions.el" "er-basic-expansions.elc" "er-basic-expansions.el" "enh-ruby-mode-expansions.elc" "enh-ruby-mode-expansions.el" "css-mode-expansions.elc" "css-mode-expansions.el" "cperl-mode-expansions.elc" "cperl-mode-expansions.el" "clojure-mode-expansions.elc" "clojure-mode-expansions.el" "cc-mode-expansions.elc" "cc-mode-expansions.el" "../" "./")
+
+ ("e:/Books/go/" (21427 64137 0 0) "the_go_programming_language_phrasebook.pdf" "The Way to Go.pdf" "programming_in_go.pdf" "Networking with Go.pdf" "Learning go.pdf" "goeg/" "gobook.pdf" "go.pdf" "../" "./")
+
+ ("e:/Books/Java/" (21504 28883 0 0) "Vermeulen A.The elements of Java style.2001.pdf" "Thinking in Patterns/" "Thinking in Java/" "The Well-Grounded Java Developer.pdf" "The Pragmatic Programmer.pdf" "The Pragmatic Programmer, From Journeyman To Master.pdf" "Servlet & JSP/" "schoolboek-data_structures_and_algorithms_in_java.pdf" "Refactoring-Presentation-from-JavaOne.pdf" "problems.pdf" "Practical Introduction to Datastructures & Algorithms.pdf" "More Java Pitfalls.pdf" "M.Fowler et al - Refactoring - Improving the Design of Existing.pdf" "jvms7.pdf" "jls7.pdf" "java_the_good_parts.pdf" "java_concurrency_in_practice.pdf" "java8/" "java web services.pdf" "Java Programming Interviews Exposed.pdf" "head_first_servlets_and_jsp_2nd_edition.pdf" "Functional Programming for Java Developers.pdf" "Effective Java, 2nd Edition.pdf" "developers_best_practices_tutorial.pdf" "DesignPatterns.pdf" "Clean_Code_Args.pdf" "Beginning- Java 7.pdf" "AJavaServers.ppt" "1449365116_Jav.epub" "../" "./")
+
+ ("e:/software/" (21504 36837 0 0) "zip/" "X-Lite_Win32_4.5.5._71236.exe" "www/" "WSI Hero/" "WSI/" "winmd5free/" "WebStorm_7.0.3/" "w3m-0.5.3.tar.gz" "w3m-0.5.3/" "Voice tool licensed setup/" "VMware-workstation-full-10.0.1-1379776.exe" "VirtualBox-4.3.14-95030-Win.exe" "vertx/" "vert.x-2.1.1/" "usr/" "thucydides-master/" "testopia/" "test.sh" "TCPView/" "spring-framework-master/" "slf4j-1.7.5/" "shiro-1.0.x/" "selenium-2.37.0/" "Selenium/" "rust/" "Remedy/" "RawCap/" "putty/" "powermock-mockito-junit-1.5.4/" "PlayFramework/" "NetOffice 1.6.0/" "mysql-installer-community-5.6.17.0.msi" "mupdf-1.5-windows/" "MultiDatesPicker v1.6.1.zip" "mockito-1.9.5/" "MiKTeX 2.9/" "log4j2/" "LightTableWin.zip" "LightTable/" "libxml2/" "less/" "ldap-csvexport-1.3.5/" "JSLib/" "jsl-0.3.0/" "jshashtable-3.0/" "jquery.mobile-1.4.2.zip" "jquery.mobile-1.4.2/" "jetty.bundles.repo/" "jetty-distribution-9.2.1.v20140609/" "jetty-9.1/" "jbehave-web-3.5.5/" "jbehave-tutorial-master/" "jbehave-4.0-beta-5/" "jbehave-3.9.1-src/" "jbehave-3.9.1/" "JBehave/" "javamail-1.4.7/" "ispell-3.2.06-cygwin-1.3-bin.tar.gz" "ICA Client 12.1.44.1/" "httpunit-1.7/" "http%3a%2f%2fmirrors.163.com%2fcygwin%2f/" "http%3a%2f%2fmirrors-au.go-parts.com%2fcygwin%2f/" "html5-boilerplate-4.3.0/" "gsoap-2.7/" "gs/" "groovy-2.3.6/" "grails-2.4.2.zip" "grails-2.4.2/" "gradle-2.0-all.zip" "gradle-2.0-all/" "gradle-2.0/" "gradle-1.12/" "go1.3.1.windows-386.zip" "go/" "GnuWin32/" "Globalization/" "glassfish4/" "getgnuwin32/" "fitnesse/" "fiddler4setup.exe" "emacs-w3m-1.4.4.tar.gz" "emacs-w3m-1.4.4/" "eclipse 43/" "eclipse/" "dojo-release-1.9.1/" "disruptor/" "cxf-master.zip" "cxf-master/" "csv2ldif.zip" "csv2ldif/" "css-validator.jar" "css-validator-standalone-master/" "cruisecontrol-bin-2.8.4/" "commons-scxml-0.9/" "commons-logging-1.1.3/" "centos-6.3-i386-server/" "bootstrap/" "BMC Remedy/" "badboy/" "axis2-1.6.2-src/" "axis2-1.6.2-doc/" "axis2-1.6.2/" "apache-wicket-6.16.0/" "apache-wicket-6.15.0/" "apache-maven-3.1.1/" "apache-log4j-2.0-rc1-src/" "apache-log4j-2.0-beta9-bin/" "apache-log4j-2.0/" "apache-jmeter-2.11.tgz" "apache-jmeter-2.11.tar" "apache-jmeter-2.11/" "Apache Software Foundation/" "Apache HTTPD/" "../" "./")
+
+ ("e:/software/emacs-w3m-1.4.4/" (21504 37130 0 0) "w3mhack.el" "w3m.exe.stackdump" "w3m.el" "w3m-xmas.el" "w3m-weather.el" "w3m-util.elc" "w3m-util.el" "w3m-ucs.el" "w3m-tabmenu.el" "w3m-symbol.elc" "w3m-symbol.el" "w3m-search.el" "w3m-rss.elc" "w3m-rss.el" "w3m-proc.elc" "w3m-proc.el" "w3m-perldoc.el" "w3m-om.el" "w3m-namazu.el" "w3m-load.el" "w3m-lnum.el" "w3m-image.elc" "w3m-image.el" "w3m-hist.elc" "w3m-hist.el" "w3m-fsf.elc" "w3m-fsf.el" "w3m-form.el" "w3m-filter.el" "w3m-favicon.elc" "w3m-favicon.el" "w3m-e21.el" "w3m-e20.el" "w3m-e19.el" "w3m-dtree.el" "w3m-cookie.el" "w3m-ccl.elc" "w3m-ccl.el" "w3m-bug.elc" "w3m-bug.el" "w3m-bookmark.el" "w3m-bitmap.el" "w3m-antenna.el" "shimbun/" "README.ja" "README" "patches/" "octet.el" "mkinstalldirs" "mime-w3m.el" "mew-w3m.el" "Makefile.in" "Makefile" "install-sh" "icons30/" "icons/" "doc/" "COPYING" "configure.in" "configure" "config.status" "config.log" "ChangeLog.1" "ChangeLog" "attic/" "aclocal.m4" "../" "./")
+
+ ("e:/busterWS/" (21502 62654 0 0) "Start/" "buster-yasnippet.txt" "../" "./")
+
+ ("e:/busterWS/Start/test/" (21502 62654 0 0) "first-test.js" "config.js" "buster.js" "../" "./")
+
+ ("e:/busterWS/Start/" (21502 39646 0 0) "test/" "node_modules/" "lib/" "../" "./")
+
+ ("e:/nodeWorkspace/recipes/" (21501 39316 0 0) "describe.js" "../" "./")
+
+ ("e:/nodeWorkspace/" (21501 34272 0 0) "udp.js" "styles.less" "string.js" "string.7z" "soaptest/" "SIP-Stack.js" "server3.js-backup" "server2.js" "server1.js" "server.js" "SCMP_msg_template.js" "SCMP3/" "SCMP2/" "SCMP.js" "SCMP-VN-100419-PNUM33411570049.js" "SCMP-refactored.js" "SCMP-refactored-3291.txt" "SCMP-refactored-3291.js" "SCMP-Chat.js" "SCMP-Basic.js" "SCMP-54.js" "SCMP-54.7z" "SCMP-54-back.js" "SCMP/" "responses.js" "require/" "recipes/" "readfile.js" "PickleStore.js" "node_modules/" "node-tutorial-2-restful-app-master/" "node-soap-master/" "node-ldapjs-master/" "lines.txt" "jsbin/" "helloworld/" "hashmap-master/" "FileParse.js" "ExpressWs/" "express-master.zip" "express-master/" "console.log" "Console-VN-100419-PNUM-33411570049.log" "console-template.log" "Console-samplemessages.txt" "client.js" "../" "./")
+
+ ("e:/JSWorkspace/JS Good Parts/" (21499 60122 0 0) "query.js" "program2.js" "program.js" "js2..html" "js.html" "../" "./")
+
+ ("e:/JSWorkspace/" (21501 62214 0 0) "test3.js" "test2.js" "test.js" "Test.html" "test-JS/" "test/" "tdd/" "sample.js" "New folder/" "loadspeed.js" "LoadSinonEx/" "JS Good Parts/" "curretncall2.js" "currentcall.js" "compatible.html" "../" "./")
+
+ ("e:/HOME/.emacs.d/elpa/rainbow-delimiters-1.3.4/" (21485 52444 0 0) "rainbow-delimiters.elc" "rainbow-delimiters.el" "rainbow-delimiters-pkg.elc" "rainbow-delimiters-pkg.el" "rainbow-delimiters-autoloads.el" "../" "./")
+
+ ("e:/HOME/.emacs.d/elpa/mic-paren-20140714.719/" (21501 14553 0 0) "mic-paren.elc" "mic-paren.el" "mic-paren-pkg.elc" "mic-paren-pkg.el" "mic-paren-autoloads.el" "../" "./")
+
+ ("e:/nodeWorkspace/SCMP3/" (21500 49318 0 0) "VN.js" "test.js" "templates.js" "string.js" "SCMP-refactored.js" "Person.js" "object.js" "EventsPlay.js" "events.txt" "../" "./")
+
+ ("e:/HOME/.emacs.d/elpa/log4j-mode-20101016.822/" (21501 12392 0 0) "log4j-mode.elc" "log4j-mode.el" "log4j-mode-pkg.elc" "log4j-mode-pkg.el" "log4j-mode-autoloads.el" "../" "./")
+
+ ("e:/HOME/.emacs.d/elpa/requirejs-mode-20130215.1304/" (21498 38123 0 0) "requirejs-mode.elc" "requirejs-mode.el" "requirejs-mode-pkg.elc" "requirejs-mode-pkg.el" "requirejs-mode-autoloads.el" "../" "./")
+
+ ("e:/auto-complete-1.3.1/" (21498 875 0 0) "TODO.txt" "README.txt" "popup.elc" "popup.el" "Makefile" "fuzzy.elc" "fuzzy.el" "etc/" "doc/" "dict/" "COPYING.GPLv3.txt" "COPYING.FDL.txt" "auto-complete.elc" "auto-complete.el" "auto-complete-config.elc" "auto-complete-config.el" "../" "./")
+
+ ("e:/auto-complete-1.3.1/etc/" (21498 486 0 0) "test.txt" "install.el" "../" "./")
+
+ ("e:/LispWs/" (21486 18457 0 0) "GuessMyNumber.lisp" "#GuessMyNumber.lisp#" "../" "./")
+
+ ("e:/HTML5Workspace/" (21495 30089 0 0) "__MACOSX/" "Window.html" "test3.html" "test2.html" "test.html" "table/" "starterkit/" "Smooth Icon toggle/" "SampleLayout/" "responsive/" "Modernizr/" "jsp_tutorial.pdf" "jquery.mobile.custom.zip" "Jquery-1.html" "JQuery Scripts/" "initializr-verekia-4.0.zip" "initializr/" "iKreativ-Workless-db0e0d8.zip" "iKreativ-Workless-db0e0d8/" "HTML5_Compatability.zip" "HTML5_Compatability/" "HTML-KickStart-master.zip" "HTML-KickStart-master/" "holy-grail-3-column-liquid-layout-percentage.zip" "holy-grail-3-column-liquid-layout-percentage/" "h5bp-html5-boilerplate-v4.2.0-0-g0adda79.zip" "h5bp-html5-boilerplate-defe483/" "first/" "examples/" "elipses.html" "elipses" "dragdrop.html" "datepicker.html" "date/" "console2/" "ColumnLayout/" "Calendar0.2.zip" "Calendar0.2/" "calendar.html" "Calendar 03/" "button.html" "Browser Compatibility/" "autocomplete2.html" "autocomplete.html" "accordian.html" "absolute/" "14-MVC.pdf" "../" "./")
+
+ ("e:/HTML5Workspace/first/" (21495 22394 0 0) "index.html" "../" "./")
+
+ ("e:/62ConsoleTest/test/" (21495 15557 0 0) "scripts/" "Project.html" "locales/" "../" "./")
+
+ ("e:/62ConsoleTest/test/scripts/" (21493 50115 0 0) "requirejs.js" "login_test.js" "login.js" "#login_test.js#" "#login.js#" "../" "./")
+
+ ("e:/62ConsoleTest/js/AttendantConsole/login/" (21492 41409 0 0) "login_test.js" "login.js_NETAP00027116" "login.js" "../" "./")
+
+ ("e:/62ConsoleTest/en/AttendantConsole/" (21493 47195 0 0) "Test.html" "login.html" "help/" "console.html" "#login.html#" "../" "./")
+
+ ("e:/62ConsoleTest/en/" (21492 27529 0 0) "HuntingGroupConsole/" "help/" "AttendantConsole/" "../" "./")
+
+ ("e:/62ConsoleTest/" (21493 44287 0 0) "zh/" "WEB-INF/" "wav/" "tomcat/" "tmp/" "test/" "services.properties.template" "services.properties" "RELEASE" "orange.properties" "monitor.sh" "META-INF/" "log4j.properties.template" "log4j.properties" "jstest/" "js/" "images/" "html_pages/" "generic.properties" "fr/" "en/" "da/" "css/" "console.properties.template" "console.properties" "../" "./")
+
+ ("e:/apache-tomcat-7.0.54/webapps/i18n-ex/" (21492 37402 0 0) "test.js" "locales/" "index.html" "../" "./")
+
+ ("e:/i18n- ex/locales/en/" (21492 36134 0 0) "../" "./")
+
+ ("e:/i18n- ex/locales/" (21492 36135 0 0) "en/" "../" "./")
+
+ ("e:/i18n- ex/" (21492 36127 0 0) "locales/" "index.html" "../" "./")
+
+ ("e:/xgui3/js/" (21492 33031 0 0) "xgui_label.js.zh" "xgui_label.js.sl" "xgui_label.js.sk" "xgui_label.js.ru" "xgui_label.js.ro" "xgui_label.js.pt" "xgui_label.js.po" "xgui_label.js.no" "xgui_label.js.nl-be" "xgui_label.js.nl" "xgui_label.js.ko" "xgui_label.js.it" "xgui_label.js.hu" "xgui_label.js.fr" "xgui_label.js.fi" "xgui_label.js.es" "xgui_label.js.en-us" "xgui_label.js.en" "xgui_label.js.de" "xgui_label.js.da" "xgui_label.js.cs" "objects/" "netmask.js" "menuAPI.js" "lib/" "dtree/" "cookie.js" "context.js" "appli_label.js.en" "#menuAPI.js#" "../" "./")
+
+ ("e:/xgui3/js/lib/" (21492 32901 0 0) "xTypes.js" "xbStyle.js" "xbStyle-not-supported.js" "xbStyle-css.js" "xbRemoteScript.js" "xbNavigator.js" "xbDOM.js" "types.js" "tooltips.js" "misc.js" "jsAddins.js" "i18n.js" "guiOM.js" "controler.js" "../" "./")
+
+ ("e:/xgui3/" (21339 42449 0 0) "xguiController" "WEB-INF/" "version.html" "skins/" "META-INF/" "js/" "images/" "css/" "../" "./")
+
+ ("e:/62ConsoleTest/js/" (21492 27542 0 0) "prototype_1-5-1-1.js" "OR.js" "login/" "jquery.contextmenu.js" "jquery-1.7.2.min.js" "HuntingGroupConsole/" "general.js" "console/" "combo.js" "AttendantConsole/" "appli_label.js.zh" "appli_label.js.fr" "appli_label.js.en" "appli_label.js.da" "../" "./")
+
+ ("e:/62ConsoleTest/js/AttendantConsole/" (21492 27541 0 0) "login/" "console/" "../" "./")
+
+ ("e:/ConsoleTest/js/AttendantConsole/login/" (21492 25214 0 0) "login_test.js" "login.js" "../" "./")
+
+ ("e:/apache-tomcat-7.0.54/webapps/JSTest/mocha2/" (21492 13909 0 0) "index.html" "cow_test.js" "cow.js" "../" "./")
+
+ ("e:/ConsoleTest/js/AttendantConsole/" (21489 57328 0 0) "login/" "console/" "../" "./")
+
+ ("e:/ConsoleTest/js/" (21492 17803 0 0) "prototype_1-5-1-1.js" "OR.js" "login/" "jquery.contextmenu.js" "jquery-1.7.2.min.js" "HuntingGroupConsole/" "general.js" "console/" "combo.js" "AttendantConsole/" "appli_label.js.zh" "appli_label.js.fr" "appli_label.js.en" "appli_label.js.da" "../" "./")
+
+ ("e:/ConsoleTest/" (21492 17803 0 0) "zh/" "xgui3/" "wav/" "tomcat/" "tmp/" "services.properties" "RELEASE" "orange.properties" "monitor.sh" "META-INF/" "log4j.properties" "jstest/" "js/" "images/" "html_pages/" "generic.properties" "fr/" "en/" "da/" "css/" "console.properties" "../" "./")
+
+ ("e:/ConsoleTest/en/AttendantConsole/" (21492 18984 0 0) "untitled.html" "Test.html" "login.html" "help/" "console.html" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

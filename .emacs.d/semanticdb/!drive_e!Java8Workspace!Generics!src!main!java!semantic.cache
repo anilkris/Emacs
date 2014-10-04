@@ -1,0 +1,39 @@
+;; Object java/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "java/"
+  :tables (list 
+   (semanticdb-table "Generics2.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("Generics2" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("maximum" function
+                       (:arguments 
+                          ( ("x" variable (:type "T") (reparse-symbol formal_parameters) [80 83])
+                            ("y" variable (:type "T") (reparse-symbol formal_parameters) [84 87])
+                            ("z" variable (:type "T") (reparse-symbol formal_parameters) [89 92]))                          
+                        :type "T")
+                        (reparse-symbol class_member_declaration) [70 282])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [316 329]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [292 487]))                  
+                :type "class")
+                nil [1 499]))          
+    :file "Generics2.java"
+    :pointmax 500
+    :fsize 520
+    :lastmodtime '(21528 58207 0 0)
+    :unmatched-syntax '((RSHIFT 67 . 69) (LT 65 . 66) (EXTENDS 47 . 54) (PUBLIC 30 . 36) (LT 44 . 45))
+    )
+   )
+  :file "!drive_e!Java8Workspace!Generics!src!main!java!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

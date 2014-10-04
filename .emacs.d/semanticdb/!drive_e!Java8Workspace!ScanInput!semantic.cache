@@ -1,0 +1,33 @@
+;; Object ScanInput/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "ScanInput/"
+  :tables (list 
+   (semanticdb-table "ScanInput.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("java.util.Scanner" include nil nil [1 26])
+            ("ScanInput" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [82 95]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [58 253]))                  
+                :type "class")
+                nil [28 260]))          
+    :file "ScanInput.java"
+    :pointmax 224
+    :fsize 273
+    :lastmodtime '(21517 38482 0 0)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_e!Java8Workspace!ScanInput!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

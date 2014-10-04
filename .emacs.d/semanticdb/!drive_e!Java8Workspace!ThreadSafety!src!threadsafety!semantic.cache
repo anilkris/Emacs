@@ -1,0 +1,49 @@
+;; Object threadsafety/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "threadsafety/"
+  :tables (list 
+   (semanticdb-table "SimpleServlet.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("threadsafety" package nil nil [1 22])
+            ("java.io.IOException" include nil nil [24 51])
+            ("javax.servlet.*" include nil nil [52 75])
+            ("javax.servlet.http.*" include nil nil [76 104])
+            ("java.math.*" include nil nil [105 124])
+            ("SimpleServlet" type
+               (:typemodifiers ("public")
+                :superclasses "HttpServlet"
+                :members 
+                  ( ("counter" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [180 204])
+                    ("doGet" function
+                       (:throws ("ServletException" "IOException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("req" variable (:type "HttpServletRequest") (reparse-symbol formal_parameters) [227 249])
+                            ("resp" variable (:type "HttpServletResponse") (reparse-symbol formal_parameters) [251 275]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [209 354])
+                    ("doPost" function
+                       (:throws ("ServletException" "IOException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("req" variable (:type "HttpServletRequest") (reparse-symbol formal_parameters) [375 397])
+                            ("resp" variable (:type "HttpServletResponse") (reparse-symbol formal_parameters) [399 423]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [356 954]))                  
+                :type "class")
+                nil [126 956]))          
+    :file "SimpleServlet.java"
+    :pointmax 981
+    :fsize 993
+    :lastmodtime '(21504 44300 0 0)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_e!Java8Workspace!ThreadSafety!src!threadsafety!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

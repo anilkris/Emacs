@@ -1,0 +1,321 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>EmacsWiki: Java Development Environment</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://www.emacswiki.org/emacs?action=edit;id=JavaDevelopmentEnvironment" />
+<link type="text/css" rel="stylesheet" href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" />
+<link type="text/css" rel="stylesheet" href="/css/bootstrap.css" />
+<meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="EmacsWiki" href="http://www.emacswiki.org/emacs?action=rss" /><link rel="alternate" type="application/rss+xml" title="EmacsWiki: JavaDevelopmentEnvironment" href="http://www.emacswiki.org/emacs?action=rss;rcidonly=JavaDevelopmentEnvironment" />
+<link rel="alternate" type="application/rss+xml"
+      title="Emacs Wiki with page content"
+      href="http://www.emacswiki.org/emacs/full.rss" />
+<link rel="alternate" type="application/rss+xml"
+      title="Emacs Wiki with page content and diff"
+      href="http://www.emacswiki.org/emacs/full-diff.rss" />
+<link rel="alternate" type="application/rss+xml"
+      title="Emacs Wiki including minor differences"
+      href="http://www.emacswiki.org/emacs/minor-edits.rss" />
+<link rel="alternate" type="application/rss+xml"
+      title="Changes for JavaDevelopmentEnvironment only"
+      href="http://www.emacswiki.org/emacs?action=rss;rcidonly=JavaDevelopmentEnvironment" /><meta name="viewport" content="width=device-width" />
+<script type="text/javascript" src="/outliner.0.5.0.62-toc.js"></script>
+<script type="text/javascript">
+
+  function addOnloadEvent(fnc) {
+    if ( typeof window.addEventListener != "undefined" )
+      window.addEventListener( "load", fnc, false );
+    else if ( typeof window.attachEvent != "undefined" ) {
+      window.attachEvent( "onload", fnc );
+    }
+    else {
+      if ( window.onload != null ) {
+	var oldOnload = window.onload;
+	window.onload = function ( e ) {
+	  oldOnload( e );
+	  window[fnc]();
+	};
+      }
+      else
+	window.onload = fnc;
+    }
+  }
+
+  var initToc=function() {
+
+    var outline = HTML5Outline(document.body);
+    if (outline.sections.length == 1) {
+      outline.sections = outline.sections[0].sections;
+    }
+
+    if (outline.sections.length > 1
+	|| outline.sections.length == 1
+           && outline.sections[0].sections.length > 0) {
+
+      var toc = document.getElementById('toc');
+
+      if (!toc) {
+	var divs = document.getElementsByTagName('div');
+	for (var i = 0; i < divs.length; i++) {
+	  if (divs[i].getAttribute('class') == 'toc') {
+	    toc = divs[i];
+	    break;
+	  }
+	}
+      }
+
+      if (!toc) {
+	var h2 = document.getElementsByTagName('h2')[0];
+	if (h2) {
+	  toc = document.createElement('div');
+	  toc.setAttribute('class', 'toc');
+	  h2.parentNode.insertBefore(toc, h2);
+	}
+      }
+
+      if (toc) {
+        var html = outline.asHTML(true);
+        toc.innerHTML = html;
+      }
+    }
+  }
+
+  addOnloadEvent(initToc);
+  </script>
+
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/js/bootstrap.min.js"></script>
+<script src="http://emacswiki.org/emacs/emacs-bootstrap.js"></script>
+<!--[if !(lt IE 8)]><!-->
+   <script type="text/javascript">
+     (function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=document.location.protocol+"//d1agz031tafz8n.cloudfront.net/thedaywefightback.js/widget.min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()
+   </script>
+<!--<![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="http://www.emacswiki.org/emacs"><div class="header"><span class="gotobar bar"><a class="local" href="http://www.emacswiki.org/emacs/SiteMap">SiteMap</a> <a class="local" href="http://www.emacswiki.org/emacs/Search">Search</a> <a class="local" href="http://www.emacswiki.org/emacs/ElispArea">ElispArea</a> <a class="local" href="http://www.emacswiki.org/emacs/HowTo">HowTo</a> <a class="local" href="http://www.emacswiki.org/emacs/Glossary">Glossary</a> <a class="local" href="http://www.emacswiki.org/emacs/RecentChanges">RecentChanges</a> <a class="local" href="http://www.emacswiki.org/emacs/News">News</a> <a class="local" href="http://www.emacswiki.org/emacs/Problems">Problems</a> <a class="local" href="http://www.emacswiki.org/emacs/Suggestions">Suggestions</a> </span><h1><a title="Click to search for references to this page" rel="nofollow" href="http://www.emacswiki.org/emacs?search=%22JavaDevelopmentEnvironment%22"><span style="padding-right: 0.5ex;">Java</span><span style="padding-right: 0.5ex;">Development</span><span style="padding-right: 0.5ex;">Environment</span></a></h1></div><div class="wrapper"><div class="content browse"><p>The Java Development Environment for Emacs (<a name="JDEE" class="definition" title="Click to search for references to this permanent anchor" rel="nofollow" href="http://www.emacswiki.org/emacs?search=%22JDEE%22">JDEE</a>) is an integrated development environment for Emacs. It interfaces Emacs to command-line Java development tools, for instance Sun&#x2019;s JDK.</p><p>Development of JDEE is by all appearances slow. JDEE 2.4.1 was released in May, 2013 to support the latest CEDET version, but included no new features. Bug reports, patches, volunteers are very welcome! There was extensive discussion in April/May 2013 about a next generation JDEE (possible fork). Fortunately, there are signs of development for Java in <a class="alias" title="CollectionOfEmacsDevelopmentEnvironmentTools" href="http://www.emacswiki.org/emacs/CollectionOfEmacsDevelopmentEnvironmentTools#CEDET">CEDET</a>. For an other alternative see <a class="local" href="http://www.emacswiki.org/emacs/EmacsEclim">EmacsEclim</a> which provides Eclipse-like features for Java development.</p><p>Project site: <a class="url http" href="http://jdee.sourceforge.net/">http://jdee.sourceforge.net/</a></p><h2>Download</h2><p>As of JDEE version 2.4.1, JDEE works with CEDET that comes with Emacs 24.3 release (and is known to work with Emacs 23.4 or later).</p><p>If you download the binary at <a class="url http" href="http://sourceforge.net/projects/jdee/files/jdee/2.4.1/">http://sourceforge.net/projects/jdee/files/jdee/2.4.1/</a> there is no other dependency to mention.</p><p>If you checkout from the Svn repo, ant and ant-contrib are dependencies to build. Svn repo: <a class="url http" href="https://jdee.svn.sourceforge.net/svnroot/jdee/trunk">https://jdee.svn.sourceforge.net/svnroot/jdee/trunk</a></p><h2>Bugs</h2><p>There&#x2019;s no obvious way to submit a bug at the SourceForge<a class="edit" title="Click to edit this page" rel="nofollow" href="http://www.emacswiki.org/emacs?action=edit;id=SourceForge">?</a> page. Perhaps it requires an account. This section aggregates bug reports from those who don&#x2019;t want to create an account.</p><ul><li>JDEE does not scale well when opening many Java files. Try &#x2018;emacs `find . -name &#x201c;*.java&#x201d;`&#x2019; on a mere 50 Java files and you&#x2019;ll observe each Java file take progressively longer to load. Much more than 50 and you&#x2019;ll reach intolerable latencies starting Emacs. When I disable JDEE and open the same source code files in stock java-mode, Emacs initializes in a flash (tracked as <a class="url http" href="https://sourceforge.net/p/jdee/bugs/31/">https://sourceforge.net/p/jdee/bugs/31/</a>)</li><li>I did not find JDEE in ELPA, MELPA, nor Marmalade. Why not add it to one of those?</li></ul><h2>Features</h2><h3>Core</h3><p>From the webpage:</p><ul><li>JDEE menu with compile, run, debug, build, browse, project, and help commands</li><li>syntax coloring</li><li>auto indentation</li><li>compile error to source links</li><li>source-level debugging</li><li>source code browsing</li><li>make file support</li><li>ant support</li><li>automatic code generation</li><li>Java source interpreter (Pat Niemeyer&#x2019;s <a class="local" href="http://www.emacswiki.org/emacs/BeanShell">BeanShell</a>)</li></ul><h3>JDEE Extensions and Plugins</h3><ul><li>Integration with other tools<ul><li><a class="local" href="http://www.emacswiki.org/emacs/Jdee-Eclipse-integration">Jdee-Eclipse-integration</a>: different ways to profit from both IDEs or share configuration</li><li><a class="local" href="http://www.emacswiki.org/emacs/JdeeAndMavenPom">JdeeAndMavenPom</a>: how to load Maven&#x2019;s pom.xml</li><li><a class="local" href="http://www.emacswiki.org/emacs/JdeeAndMaven2Pom">JdeeAndMaven2Pom</a>: same, for Maven 2</li><li><a class="local" href="http://www.emacswiki.org/emacs/JdeeMaven">JdeeMaven</a>: still another version for Maven</li><li><a class="url http outside" href="https://bitbucket.org/espenhw/jde-mvn/wiki/Home">jde-mve</a> seems to be the newest Maven/JDEE integration</li><li><a class="url http outside" href="http://ignatyev-dev.blogspot.com/2013/07/gradle-projects-in-jdee.html">JdeeGradle</a>: generating Jdee project &#x201c;prj.el&#x201d; from Gradle project</li><li><a class="local" href="http://www.emacswiki.org/emacs/JdeeDecompile">JdeeDecompile</a>: Integrate with <a class="url http outside" href="http://www.varaneckas.com/jad">JAD</a>, a decompiler</li></ul></li><li>Problem searchers<ul><li><a class="local" href="http://www.emacswiki.org/emacs/JdeeFlymake">JdeeFlymake</a>: on-the-fly syntax checker</li><li><a class="local" href="http://www.emacswiki.org/emacs/JdeeFindbugs">JdeeFindbugs</a>: looks for bugs in Java code</li><li><a class="local" href="http://www.emacswiki.org/emacs/JdeeLint">JdeeLint</a>: detects issues with locking, threading, performance, scalability, serialization, &#x2026;</li></ul></li><li>Edition tools<ul><li><a class="local" href="http://www.emacswiki.org/emacs/JdeeJalopy">JdeeJalopy</a>: a Java source code, formatter, beautifier, pretty printer</li></ul></li><li>Information providers<ul><li><a class="local" href="http://www.emacswiki.org/emacs/JdeeUsages">JdeeUsages</a>: finds callers of a method, subclasses, overrides, and other information about your Java classes</li></ul></li><li>Programming helpers<ul><li><a class="url http outside" href="http://code.google.com/p/jdibug/">JDIBUG</a>, a new debugger for Java written in Elisp</li></ul></li></ul><p>And more.</p><h2>JDEE's features explained and demonstrated</h2><ul><li><a class="url http outside" href="http://jdee.sourceforge.net/quicktour.html">Quick tour</a> through the basic features</li><li><a class="url http outside" href="http://www.skybert.nu/cgi-bin/viewpage.py.cgi?computers+emacs+java_programming_tutorial">Emacs Java Tutorial</a>: lots of screenshots which show autocompletion, compilation, Ant, code generation, jump to source, wizards, documentation, debugging (even <a class="url http outside" href="http://www.skybert.nu/graphics/computers/remote_java_debugging_in_emacs.png">remote debugging of a servlet in Tomcat 5</a>)</li><li><a class="url http outside" href="http://skybert.nu/cgi-bin/viewpage.py.cgi?computers+emacs+the_never_ending_argument">The neverending argument</a>: more about important features, including performance, JSP support, Maven, projects, refactoring.</li></ul><p>Others (not so graphical): </p><ul><li><a class="url http outside" href="http://wttools.sourceforge.net/emacs-stuff/emacsandjdee.html">Emacs and JDEE as software development environment</a>: uncomplete, outdated (from 2003)</li><li><a class="url http outside" href="http://jdee.sunsite.dk/jdedoc/html/jde-ug/jde-ug.html">JDEE's user guide</a> (2004)</li></ul><p>Link to your success stories here! </p><ul><li><a class="url http outside" href="http://kldp.org/node/110967">emacs java(jdee) completion note (korean)</a></li><li><a class="url http outside" href="http://ignatyev-dev.blogspot.com/2012/10/java-development-with-emacs.html">Java Development With Emacs</a>. Using power of Emacs for developing Java  applications. Linux, JDEE, Maven, gtags, jdb and a little bit of ELisp together create excellent development environment.</li></ul><h2>Installation notes</h2><h3>Latest</h3><p>As of 2013-06-14, Emacs 24.3 and JDEE 2.4.1 are latest releases. This JDEE release will work with Emacs 23.4 or later. See Download section above to obtain JDEE.</p><p>Next all you need in your init file is something like:</p><pre>  (add-to-list 'load-path (format <span class="string">"%s/dist/jdee-2.4.1/lisp"</span> my-jdee-path))
+  (autoload 'jde-mode <span class="string">"jde"</span> <span class="string">"JDE mode"</span> t)
+  (setq auto-mode-alist
+        (append '((<span class="string">"\\.java\\'"</span> . jde-mode)) auto-mode-alist))
+</pre><p>See <a class="url http" href="http://jdee.sourceforge.net/install.html">http://jdee.sourceforge.net/install.html</a> for more details.</p><h3>Emacs 24 and older JDEE</h3><p>Download CEDET 1.1 and load it in Elisp. Emacs comes with CEDET 2.0; you must load CEDET 1.1 before other packages load the version in Emacs. Older JDEE are not compatible with new CEDET.</p><p>When downloading the prebuilt older release, you&#x2019;ll need some Elisp to prevent fatal errors:</p><pre>(setq jde-check-version-flag nil)
+(define-obsolete-function-alias 'make-local-hook 'ignore <span class="string">"21.1"</span>)
+(<span class="keyword cl">unless</span> (fboundp 'semantic-format-prototype-tag-java-mode)
+  (<span class="keyword">defalias</span> '<span class="function">semantic-format-prototype-tag-java-mode</span> 'semantic-format-tag-prototype-java-mode))
+(<span class="keyword">require</span> '<span class="constant">hippie-exp</span>)
+</pre><p>Use something like this to load JDEE for .java files:</p><pre>(add-to-list 'load-path (format <span class="string">"%s/lisp"</span> <span class="string">"~/.emacs.d/jdee-2.4.0.1"</span> <span class="string">"Path to JDEE"</span>))
+(autoload 'jde-mode <span class="string">"jde"</span> <span class="string">"JDE mode."</span> t)
+(setq auto-mode-alist
+      (append '((<span class="string">"\\.java\\'"</span> . jde-mode)) auto-mode-alist))
+</pre><p>JDEE 2.4.0.1 was confirmed to work in the 24.2.90 pretest release with this approach.</p><p>See also: <a class="url http" href="http://forums.fedoraforum.org/showthread.php?t=280711">http://forums.fedoraforum.org/showthread.php?t=280711</a> . Note that editing jde.el and deleting jde.elc is not necessary when setting jde-check-version-flag per above.</p><h3>Emacs 23</h3><p>If you are using Emacs 23.4 or later use use the latest release (JDEE 2.4.1) without external dependencies as described above.</p><p>Install notes for Gnu Emacs 23 and earlier JDEE releases below. This will help you get (require &#x2018;jde) running. No guarantee on anything else.</p><p>jde depends: cedet, elib. </p><pre>(add-to-list 'load-path <span class="string">"/usr/share/emacs/site-lisp/cedet-common/"</span>)
+(add-to-list 'load-path <span class="string">"/usr/share/emacs/site-lisp/cedet-contrib/"</span>)
+<span class="comment">;;for jde</span>
+(<span class="keyword">require</span> '<span class="constant">cedet</span>)
+
+(add-to-list 'load-path <span class="string">"/usr/share/emacs/site-lisp/elib/"</span>)
+</pre><p>Then you need to edit jdel.el in lisp dir.</p><p>Remove or comment out the following lines, because autoload is now part of emacs, and there is no jde-autoloads.el in jde src. </p><pre>(<span class="keyword">require</span> '<span class="constant">jde-autoload</span>)
+....
+(<span class="keyword cl">unless</span> 
+    (and jde-xemacsp
+	 (file-exists-p 
+	  (expand-file-name 
+	   <span class="string">"jde/auto-autoloads.el"</span>
+	   (jde-root))))
+	 (<span class="keyword">require</span> '<span class="constant">jde-autoload</span>))
+</pre><p>For jde itself, add these to .emacs, change the dirs to fit your install of course: </p><pre><span class="comment">;;--------------------</span>
+<span class="comment">;; jde</span>
+
+(add-to-list 'load-path <span class="string">"~/.emacs.d/jde-current/"</span>)
+(<span class="keyword">require</span> '<span class="constant">jde</span>)
+(setq jde-web-browser <span class="string">"firefox"</span>)
+(setq jde-doc-dir <span class="string">"~/d/jdk-6-doc/"</span>)
+</pre><p>I don&#x2019;t know much about it myself. I guess there are more problems waiting.</p><p><strong>How to load JDE in Emacs &gt;=23.2 (after CEDET integration into Emacs trunk)</strong>:</p><p>Use the latest release, JDEE 2.4.1! For prior JDEE releases:</p><p>I fear it is complex, as the CEDET inclusion changed package names but JDEE is still using the old ones (tested in branches 2.4 and trunk). For instance (require &#x2018;semantic-ctxt) is the old name (standalone CEDET), but in the Emacs-included CEDET it should be transformed to (require &#x2018;semantic/ctxt). Someone must update JDEE. 24.m3.2010, <a class="local" href="http://www.emacswiki.org/emacs/DanielClemente">DanielClemente</a></p><p>I finally got JDE to work (mostly) with emacs 23.2. Here is what I did:</p><p>1) Download trunk source from svn. 2) Extract the source 3) ant configure 4) ant</p><p>here is my init file&#x2026; There a few &#x2018;tricks&#x2019; in here:</p><pre>
+<span class="comment">;; Update the Emacs load-path to include the path to</span>
+<span class="comment">;; the JDE and its require packages. This code assumes</span>
+(add-to-list 'load-path (expand-file-name <span class="string">"~/Documents/elisp/jdee/lisp"</span>))
+
+ (setq semantic-default-submodes '(global-semantic-idle-scheduler-mode
+                                      global-semanticdb-minor-mode
+                                      global-semantic-idle-summary-mode
+				      global-semantic-decoration-mode
+				      global-semantic-highlight-func-mode
+				      global-semantic-stickyfunc-mode
+                                      global-semantic-mru-bookmark-mode))
+
+(add-to-list 'load-path (expand-file-name <span class="string">"~/Documents/elisp/jdibug-0.2"</span>))
+(setq semantic-load-turn-everything-on t)
+(semantic-mode 1)
+(<span class="keyword">require</span> '<span class="constant">semantic/senator</span>)
+(<span class="keyword">require</span> '<span class="constant">semantic</span>)
+(<span class="keyword">require</span> '<span class="constant">semantic/ia</span>)
+(<span class="keyword">require</span> '<span class="constant">semantic/wisent</span>)
+(<span class="keyword">require</span> '<span class="constant">semantic/wisent/java-tags</span>)
+
+<span class="comment">;; Use the full Java 1.5 grammer to parse Java</span>
+(autoload 'wisent-java-default-setup <span class="string">"wisent"</span> <span class="string">"Hook run to setup Semantic in 'java-mode'."</span> nil nil)
+
+(setq jde-auto-parse-enable nil)
+(setq jde-enable-senator nil)
+(load <span class="string">"jde-autoload"</span>)
+
+<span class="comment">;; load jde-testng</span>
+(<span class="keyword">require</span> '<span class="constant">jde-testng</span>)
+
+<span class="comment">;; load jde-maven</span>
+(<span class="keyword">require</span> '<span class="constant">jde-maven</span>2)
+
+
+(<span class="keyword">require</span> '<span class="constant">jdibug</span>)
+
+<span class="comment">;; If you want Emacs to defer loading the JDE until you open a </span>
+<span class="comment">;; Java file, edit the following line</span>
+(setq defer-loading-jde nil)
+<span class="comment">;; to read:</span>
+<span class="comment">;;</span>
+<span class="comment">;;  (setq defer-loading-jde t)</span>
+<span class="comment">;;</span>
+
+(<span class="keyword elisp">if</span> defer-loading-jde
+    (<span class="keyword elisp">progn</span>
+      (autoload 'jde-mode <span class="string">"jde"</span> <span class="string">"JDE mode."</span> t)
+      (setq auto-mode-alist
+	    (append
+	     '((<span class="string">"\\.java\\'"</span> . jde-mode))
+	     auto-mode-alist)))
+  (<span class="keyword">require</span> '<span class="constant">jde</span>))
+
+(setq 
+ jde-sourcepath '( <span class="string">"/Users/ldangelo/Development"</span> )
+ jde-db-option-connect-socket '(nil <span class="string">"28380"</span>)
+ jde-jdk-registry (quote (
+			  (<span class="string">"1.5"</span> . <span class="string">"/System/Library/Frameworks/JavaVM.framework/Versions/1.5/"</span>)
+			  (<span class="string">"1.6"</span> . <span class="string">"/System/Library/Frameworks/JavaVM.framework/Versions/1.6/"</span>)
+			  )
+			 )
+ jde-jdk `(<span class="string">"1.6"</span>)
+
+)
+
+
+<span class="comment">;; Include the following only if you want to run</span>
+<span class="comment">;; bash as your shell.</span>
+
+<span class="comment">;; Setup Emacs to run bash as its primary shell.</span>
+(setq shell-file-name <span class="string">"bash"</span>)
+(setq shell-command-switch <span class="string">"-c"</span>)
+(setq explicit-shell-file-name shell-file-name)
+(setenv <span class="string">"SHELL"</span> shell-file-name)
+(setq explicit-sh-args '(<span class="string">"-login"</span> <span class="string">"-i"</span>))
+(<span class="keyword elisp">if</span> (boundp 'w32-quote-process-args)
+  (setq w32-quote-process-args ?\")) <span class="comment">;; Include only for MS Windows.</span>
+
+
+<span class="comment">;; Location of you emacs directory</span>
+(setq my-emacs-dir (concat (getenv <span class="string">"HOME"</span>) <span class="string">"/.emacs.d/tmp/emacs-jde"</span>))
+
+<span class="comment">;; save all the semantic.cache files to one place</span>
+(<span class="keyword cl">when</span> (locate-library <span class="string">"semantic"</span>)
+  (<span class="keyword elisp">let</span> ((semcach (concat my-emacs-dir <span class="string">"/semantic-cache"</span>)))
+    (<span class="keyword cl">unless</span> (file-directory-p semcach)
+      (make-directory semcach))
+    (setq semanticdb-default-save-directory semcach)))
+
+(define-key jde-mode-map [f8]   'jdibug-step-over) 
+(define-key jde-mode-map [M-f8] 'jdibug-step-into) 
+(define-key jde-mode-map [f7]   'jdibug-step-out) 
+(define-key jde-mode-map [M-f7] 'jdibug-resume)
+
+(<span class="keyword">require</span> '<span class="constant">flymake</span>)
+
+(<span class="keyword">defun</span> <span class="function">skip-cleanup</span>())
+
+<span class="comment">;; function does not exist in emacs 23.2</span>
+(<span class="keyword">defun</span> <span class="function">semantic-parse</span>())
+
+(<span class="keyword">defun</span> <span class="function">flymake-java-ecj-init</span> ()
+  (<span class="keyword elisp">let</span>* ((temp-file   (flymake-init-create-temp-buffer-copy
+                       'jde-ecj-create-temp-file))
+         (local-file  (file-relative-name
+                       temp-file
+                       (file-name-directory buffer-file-name))))
+    <span class="comment">;; Change your ecj.jar location here</span>
+    (list <span class="string">"java"</span> (list <span class="string">"-jar"</span> <span class="string">"/Users/ldangelo/Development/ecj.jar"</span> <span class="string">"-Xemacs"</span> <span class="string">"-d"</span> <span class="string">"/dev/null"</span>
+                       <span class="string">"-source"</span> <span class="string">"1.5"</span> <span class="string">"-target"</span> <span class="string">"1.5"</span> <span class="string">"-proceedOnError"</span>
+                       <span class="string">"-classpath"</span>
+                       (jde-build-classpath jde-global-classpath) local-file))))
+ 
+(<span class="keyword">defun</span> <span class="function">flymake-java-ecj-cleanup</span> ()
+  <span class="string">"Cleanup after `<span class="constant important">flymake-java-ecj-init</span>' -- delete temp file and dirs."</span>
+  (flymake-safe-delete-file flymake-temp-source-file-name)
+  (<span class="keyword cl">when</span> flymake-temp-source-file-name
+    (flymake-safe-delete-directory (file-name-directory flymake-temp-source-file-name))))
+
+(<span class="keyword">defun</span> <span class="function">jde-ecj-create-temp-file</span> (file-name prefix)
+  <span class="string">"Create the file FILE-NAME in a unique directory in the temp directory."</span>
+  (file-truename (expand-file-name (file-name-nondirectory file-name)
+                                   (expand-file-name  (int-to-string (random)) (flymake-get-temp-dir)))))
+ 
+(push '(<span class="string">".+\\.java$"</span> flymake-java-ecj-init flymake-java-ecj-cleanup) flymake-allowed-file-name-masks)
+ 
+(push '(<span class="string">"\\(.*?\\):\\([0-9]+\\): error: \\(.*?\\)\n"</span> 1 2 nil 2 3 (6 compilation-error-face)) compilation-error-regexp-alist)
+ 
+(push '(<span class="string">"\\(.*?\\):\\([0-9]+\\): warning: \\(.*?\\)\n"</span> 1 2 nil 1 3 (6 compilation-warning-face)) compilation-error-regexp-alist)
+
+<span class="comment">;; Sets the basic indentation for Java source files</span>
+<span class="comment">;; to two spaces.</span>
+(<span class="keyword">defun</span> <span class="function">my-jde-mode-hook</span> ()
+  <span class="string">"Hook for running java file..."</span>
+  (message <span class="string">" Loading my-jde-mode-hook..."</span>)
+  (c-set-offset 'substatement-open 0)
+  (c-set-offset 'statement-case-open 0)
+  (c-set-offset 'case-label '+)
+ (wisent-java-default-setup)
+ (flymake-mode)
+  (setq 
+   indent-tabs-mode nil
+   tab-width 4
+   c-basic-offset 2
+   tempo-interactive t
+   ))
+
+(add-hook 'jde-mode-hook 'my-jde-mode-hook)
+
+</pre><h2>Distributions</h2><ul><li>Debian Wheezy: JDEE 2.4.1 works with included Emacs 23.4</li><li>Debian Etch - installed and loaded correctly</li><li>Ubuntu 7.10 (Gutsy Gibbon) - requires a patch <a class="local" href="http://www.emacswiki.org/emacs/JDE_Ubuntu_Patch">JDE Ubuntu Patch</a></li></ul><p><strong><em>Note from 2004:</em></strong> If you use the Debian Sid <tt>jde</tt> package with CVS Emacs, you may need to apply this <a class="url http outside" href="http://lists.gnu.org/archive/html/emacs-pretest-bug/2004-11/msg00145.html">patch</a>.</p><h2>JDEE compared with other IDEs</h2><ul><li><a class="local" href="http://www.emacswiki.org/emacs/JdeeVsEclipse">JdeeVsEclipse</a>. Still to write</li></ul><h2>Frequently Given Answers (FGA)</h2><p>Did you install it correctly as documented? The website says: &#x201c;Nearly all the JDEE problems that I have seen are caused by faulty setups,&#x201d; and &#x201c;Most problems reported by users are installation/setup problems.&#x201d; See the <a class="url http outside" href="http://jdee.sunsite.dk/trouble-shooting.htm">Trouble Shooting Guide</a> (Dead link).</p><h2>Alternatives</h2><h3>malabar-mode</h3><p><a class="url http outside" href="http://github.com/espenhw/malabar-mode">malabar-mode</a> is an effort to create a better Java mode for Emacs.</p><h3>Eclim</h3><p><a class="url http outside" href="http://eclim.org/">Eclim</a> uses Eclipse as a backend to provide intelligent Java completion and coding support in Emacs</p><h2>Comments</h2><p>moved to the <a class="inter EmacsWiki outside" href="/emacs?Comments_on_JavaDevelopmentEnvironment">Talk page</a></p><hr /><p><a class="local" href="http://www.emacswiki.org/emacs/CategoryProgrammerUtils">CategoryProgrammerUtils</a> <a class="local" href="http://www.emacswiki.org/emacs/CategoryModes">CategoryModes</a> <a class="local" href="http://www.emacswiki.org/emacs/CategoryProject">CategoryProject</a> <a class="local" href="http://www.emacswiki.org/emacs/CategoryJava">CategoryJava</a></p></div><div class="wrapper close"></div></div><div class="footer"><hr /><span class="gotobar bar"><a class="local" href="http://www.emacswiki.org/emacs/SiteMap">SiteMap</a> <a class="local" href="http://www.emacswiki.org/emacs/Search">Search</a> <a class="local" href="http://www.emacswiki.org/emacs/ElispArea">ElispArea</a> <a class="local" href="http://www.emacswiki.org/emacs/HowTo">HowTo</a> <a class="local" href="http://www.emacswiki.org/emacs/Glossary">Glossary</a> <a class="local" href="http://www.emacswiki.org/emacs/RecentChanges">RecentChanges</a> <a class="local" href="http://www.emacswiki.org/emacs/News">News</a> <a class="local" href="http://www.emacswiki.org/emacs/Problems">Problems</a> <a class="local" href="http://www.emacswiki.org/emacs/Suggestions">Suggestions</a> </span><span class="translation bar"><br /> <a class="translation fr" href="http://www.emacswiki.org/emacs-fr/JavaDevelopmentEnvironmentFrançais">Français</a> <a class="translation new" rel="nofollow" href="http://www.emacswiki.org/emacs?action=translate;id=JavaDevelopmentEnvironment;missing=de_es_it_ja_ko_pt_ru_se_uk_zh">Add Translation</a></span><span class="edit bar"><br /> <a class="comment local" accesskey="c" href="http://www.emacswiki.org/emacs/Comments_on_JavaDevelopmentEnvironment">Talk</a> <a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://www.emacswiki.org/emacs?action=edit;id=JavaDevelopmentEnvironment">Edit this page</a> <a class="history" rel="nofollow" href="http://www.emacswiki.org/emacs?action=history;id=JavaDevelopmentEnvironment">View other revisions</a> <a class="admin" rel="nofollow" href="http://www.emacswiki.org/emacs?action=admin;id=JavaDevelopmentEnvironment">Administration</a></span><span class="time"><br /> Last edited 2014-02-13 17:33 UTC by <a class="author" title="fortress.aer.com" href="http://www.emacswiki.org/emacs/epich">epich</a> <a class="diff" rel="nofollow" href="http://www.emacswiki.org/emacs?action=browse;diff=2;id=JavaDevelopmentEnvironment">(diff)</a></span><form method="get" action="http://www.emacswiki.org/cgi-bin/emacs" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+<p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <label for="searchlang">Language:</label> <input type="text" name="lang"  size="10" id="searchlang" /> <input type="submit" name="dosearch" value="Go!" /></p></form><div style="float:right; margin-left:1ex;">
+<!-- Creative Commons License -->
+<a class="licence" href="http://creativecommons.org/licenses/GPL/2.0/"><img alt="CC-GNU GPL" style="border:none" src="/pics/cc-GPL-a.png" /></a>
+<!-- /Creative Commons License -->
+</div>
+
+<!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="">
+   <license rdf:resource="http://creativecommons.org/licenses/GPL/2.0/" />
+  <dc:type rdf:resource="http://purl.org/dc/dcmitype/Software" />
+</Work>
+
+<License rdf:about="http://creativecommons.org/licenses/GPL/2.0/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+   <requires rdf:resource="http://web.resource.org/cc/SourceCode" />
+</License>
+</rdf:RDF>
+-->
+
+<p class="legal">
+This work is licensed to you under version 2 of the
+<a href="http://www.gnu.org/">GNU</a> <a href="/GPL">General Public License</a>.
+Alternatively, you may choose to receive this work under any other
+license that grants the right to use, copy, modify, and/or distribute
+the work, as long as that license imposes the restriction that
+derivative works have to grant the same rights and impose the same
+restriction. For example, you may choose to receive this work under
+the
+<a href="http://www.gnu.org/">GNU</a>
+<a href="/FDL">Free Documentation License</a>, the
+<a href="http://creativecommons.org/">CreativeCommons</a>
+<a href="http://creativecommons.org/licenses/sa/1.0/">ShareAlike</a>
+License, the XEmacs manual license, or
+<a href="/OLD">similar licenses</a>.
+</p>
+</div>
+</body>
+</html>

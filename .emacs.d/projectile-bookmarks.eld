@@ -1,0 +1,1 @@
+("e:/EmberWorkspace/Redo2/" "e:/EmberWorkspace/Todo2/" "e:/EmberWorkspace/Redo/" "e:/EmberWorkspace/Todo/" "~/.emacs.d/" "e:/DPWorkspace/First/" "e:/Java8Workspace/Generics/")

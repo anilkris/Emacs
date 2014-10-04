@@ -1,0 +1,34 @@
+;; Object gradle1/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "gradle1/"
+  :tables (list 
+   (semanticdb-table "Hello.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("myc.gradle1" package nil nil [1 21])
+            ("java.util.Arrays" include nil nil [23 47])
+            ("Hello" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [102 115]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [78 178]))                  
+                :type "class")
+                nil [52 180]))          
+    :file "Hello.java"
+    :pointmax 181
+    :fsize 194
+    :lastmodtime '(21516 36235 0 0)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_e!GradleWorkSpace!Hello!src!java!myc!gradle1!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

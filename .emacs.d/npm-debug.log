@@ -1,0 +1,76 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'E:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'E:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'express-generator@4' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.30
+4 verbose node symlink E:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'express-generator@4', null ]
+6 verbose cache add name=undefined spec="express-generator@4" args=["express-generator@4",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'express-generator@4',
+7 verbose parsed url   path: 'express-generator@4',
+7 verbose parsed url   href: 'express-generator@4' }
+8 verbose cache add name="express-generator" spec="4" args=["express-generator","4"]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: '4',
+9 verbose parsed url   path: '4',
+9 verbose parsed url   href: '4' }
+10 verbose addNamed [ 'express-generator', '4' ]
+11 verbose addNamed [ null, '>=4.0.0-0 <5.0.0-0' ]
+12 silly lockFile 1cb3188f-express-generator-4 express-generator@4
+13 verbose lock express-generator@4 C:\Users\gur04248.AD\AppData\Roaming\npm-cache\1cb3188f-express-generator-4.lock
+14 silly addNameRange { name: 'express-generator',
+14 silly addNameRange   range: '>=4.0.0-0 <5.0.0-0',
+14 silly addNameRange   hasData: false }
+15 verbose request where is /express-generator
+16 verbose request registry https://registry.npmjs.org/
+17 verbose request id b8d971dbd0a650ea
+18 verbose url raw /express-generator
+19 verbose url resolving [ 'https://registry.npmjs.org/', './express-generator' ]
+20 verbose url resolved https://registry.npmjs.org/express-generator
+21 verbose request where is https://registry.npmjs.org/express-generator
+22 info trying registry request attempt 1 at 13:40:50
+23 http GET https://registry.npmjs.org/express-generator
+24 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+25 info trying registry request attempt 2 at 13:41:22
+26 http GET https://registry.npmjs.org/express-generator
+27 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+28 info trying registry request attempt 3 at 13:42:43
+29 http GET https://registry.npmjs.org/express-generator
+30 silly lockFile 1cb3188f-express-generator-4 express-generator@4
+31 silly lockFile 1cb3188f-express-generator-4 express-generator@4
+32 error network connect ETIMEDOUT
+32 error network This is most likely not a problem with npm itself
+32 error network and is related to network connectivity.
+32 error network In most cases you are behind a proxy or have bad network settings.
+32 error network
+32 error network If you are behind a proxy, please make sure that the
+32 error network 'proxy' config is set properly.  See: 'npm help config'
+33 error System Windows_NT 6.1.7601
+34 error command "E:\\Program Files\\nodejs\\\\node.exe" "E:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "express-generator@4"
+35 error cwd E:\HOME\.emacs.d
+36 error node -v v0.10.30
+37 error npm -v 1.4.21
+38 error syscall connect
+39 error code ETIMEDOUT
+40 error errno ETIMEDOUT
+41 verbose exit [ 1, true ]

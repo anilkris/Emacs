@@ -1,0 +1,55 @@
+;; Object hello/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "hello/"
+  :tables (list 
+   (semanticdb-table "Hello.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("Hello" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [50 64]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [26 101]))                  
+                :type "class")
+                nil [1 104]))          
+    :file "Hello.java"
+    :pointmax 105
+    :fsize 112
+    :lastmodtime '(21483 8166 0 0)
+    :unmatched-syntax 'nil
+    )
+    (semanticdb-table "Hello2.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("Hello2" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [51 64]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [27 103]))                  
+                :type "class")
+                nil [1 106]))          
+    :file "Hello2.java"
+    :pointmax 107
+    :fsize 113
+    :lastmodtime '(21485 40886 0 0)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_e!Java8Workspace!hello!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

@@ -1,0 +1,16 @@
+ls
+pwd
+cd locales/
+dir
+cd ..
+grep
+fgrep
+ps -ef
+cd ..
+cd ..
+cd HTML5Workspace/
+ls -lrt
+mkdir first
+cd firt
+cd first
+emacs index.html
